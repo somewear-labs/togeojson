@@ -487,6 +487,488 @@ Object {
 }
 `
 
+exports[`test/index.test.js TAP toGeoJSON > addresses.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "In transit",
+        "description": " In transit from 2015-07-31T17:00:00.000Z to 2015-08-01T00:00:00.000Z. Distance 0m ",
+        "Distance": "0",
+        "name": "In transit",
+        "timespan": Object {
+          "begin": "2015-07-31T17:00:00.000Z",
+          "end": "2015-08-01T00:00:00.000Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [
+              Array [
+                100.5513698,
+                13.7987389,
+                0,
+              ],
+              Array [
+                100.5515619,
+                13.7992727,
+                0,
+              ],
+            ],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "Moving",
+        "description": " Moving from 2015-08-01T00:00:00.000Z to 2015-08-01T09:04:32.323Z. Distance 173m ",
+        "Distance": "173",
+        "name": "Moving",
+        "timespan": Object {
+          "begin": "2015-08-01T00:00:00.000Z",
+          "end": "2015-08-01T09:04:32.323Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "Walking",
+        "description": " Walking from 2015-08-01T09:04:32.323Z to 2015-08-01T09:16:56.610Z. Distance 0m ",
+        "Distance": "0",
+        "name": "Walking",
+        "timespan": Object {
+          "begin": "2015-08-01T09:04:32.323Z",
+          "end": "2015-08-01T09:16:56.610Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [
+              Array [
+                100.5343967,
+                13.745564,
+                0,
+              ],
+            ],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "On the subway",
+        "description": " On the subway from 2015-08-01T09:16:56.610Z to 2015-08-01T09:43:53.321Z. Distance 4470m ",
+        "Distance": "4470",
+        "name": "On the subway",
+        "timespan": Object {
+          "begin": "2015-08-01T09:16:56.610Z",
+          "end": "2015-08-01T09:43:53.321Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [
+              Array [
+                100.52868400000001,
+                13.746737,
+                0,
+              ],
+            ],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "address": "925/9 Rama 1 Rd. Wangmai, Pathum Wan, Bangkok 10330, Thailand",
+        "Category": "Budget Hotel",
+        "description": " Budget Hotel from 2015-08-01T09:43:58.715Z to 2015-08-01T16:31:30.753Z. Distance 0m ",
+        "Distance": "0",
+        "name": "Lub d - Bangkok Siam",
+        "timespan": Object {
+          "begin": "2015-08-01T09:43:58.715Z",
+          "end": "2015-08-01T16:31:30.753Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [
+              Array [
+                100.52868400000001,
+                13.746737,
+                0,
+              ],
+            ],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "In transit",
+        "description": " In transit from 2015-08-01T16:31:30.753Z to 2015-08-01T16:55:33.088Z. Distance 0m ",
+        "Distance": "0",
+        "name": "In transit",
+        "timespan": Object {
+          "begin": "2015-08-01T16:31:30.753Z",
+          "end": "2015-08-01T16:55:33.088Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [
+              Array [
+                100.59150720000001,
+                13.749175999999999,
+                0,
+              ],
+            ],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "address": "Huai Khwang, Bangkok, Thailand",
+        "Category": "Sublocality2",
+        "description": " Sublocality2 from 2015-08-01T16:55:39.324Z to 2015-08-01T17:13:08.282Z. Distance 0m ",
+        "Distance": "0",
+        "name": "Bang Kapi",
+        "timespan": Object {
+          "begin": "2015-08-01T16:55:39.324Z",
+          "end": "2015-08-01T17:13:08.282Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [
+              Array [
+                100.57488623703713,
+                13.752278881572217,
+                0,
+              ],
+            ],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "Driving",
+        "description": " Driving from 2015-08-01T17:13:08.282Z to 2015-08-01T17:34:21.480Z. Distance 0m ",
+        "Distance": "0",
+        "name": "Driving",
+        "timespan": Object {
+          "begin": "2015-08-01T17:13:08.282Z",
+          "end": "2015-08-01T17:34:21.480Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "Walking",
+        "description": " Walking from 2015-08-01T17:34:21.480Z to 2015-08-01T17:49:42.729Z. Distance 0m ",
+        "Distance": "0",
+        "name": "Walking",
+        "timespan": Object {
+          "begin": "2015-08-01T17:34:21.480Z",
+          "end": "2015-08-01T17:49:42.729Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "Driving",
+        "description": " Driving from 2015-08-01T17:49:42.729Z to 2015-08-01T18:10:35.378Z. Distance 0m ",
+        "Distance": "0",
+        "name": "Driving",
+        "timespan": Object {
+          "begin": "2015-08-01T17:49:42.729Z",
+          "end": "2015-08-01T18:10:35.378Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "Walking",
+        "description": " Walking from 2015-08-01T18:10:35.378Z to 2015-08-01T18:58:19.307Z. Distance 0m ",
+        "Distance": "0",
+        "name": "Walking",
+        "timespan": Object {
+          "begin": "2015-08-01T18:10:35.378Z",
+          "end": "2015-08-01T18:58:19.307Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "Driving",
+        "description": " Driving from 2015-08-01T18:58:19.307Z to 2015-08-01T19:16:48.446Z. Distance 0m ",
+        "Distance": "0",
+        "name": "Driving",
+        "timespan": Object {
+          "begin": "2015-08-01T18:58:19.307Z",
+          "end": "2015-08-01T19:16:48.446Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "Walking",
+        "description": " Walking from 2015-08-01T19:16:48.446Z to 2015-08-01T19:29:38.452Z. Distance 0m ",
+        "Distance": "0",
+        "name": "Walking",
+        "timespan": Object {
+          "begin": "2015-08-01T19:16:48.446Z",
+          "end": "2015-08-01T19:29:38.452Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [
+              Array [
+                100.5481932,
+                13.7562302,
+                0,
+              ],
+              Array [
+                100.5403726,
+                13.7563681,
+                0,
+              ],
+            ],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "Driving",
+        "description": " Driving from 2015-08-01T19:29:38.452Z to 2015-08-01T19:35:18.504Z. Distance 885m ",
+        "Distance": "885",
+        "name": "Driving",
+        "timespan": Object {
+          "begin": "2015-08-01T19:29:38.452Z",
+          "end": "2015-08-01T19:35:18.504Z",
+        },
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              null,
+            ],
+            "type": "Point",
+          },
+          Object {
+            "coordinates": Array [],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "Category": "Walking",
+        "description": " Walking from 2015-08-01T19:35:18.504Z to 2015-08-01T19:39:28.251Z. Distance 0m ",
+        "Distance": "0",
+        "name": "Walking",
+        "timespan": Object {
+          "begin": "2015-08-01T19:35:18.504Z",
+          "end": "2015-08-01T19:39:28.251Z",
+        },
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
+}
+`
+
 exports[`test/index.test.js TAP toGeoJSON > apple_watch_route.gpx 1`] = `
 Object {
   "features": Array [
@@ -9372,6 +9854,34 @@ Object {
 }
 `
 
+exports[`test/index.test.js TAP toGeoJSON > cdata.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -122.0822035425683,
+          37.42228990140251,
+          0,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "description": String(
+          
+                
+          
+                       Here is some text
+                
+        ),
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
+}
+`
+
 exports[`test/index.test.js TAP toGeoJSON > empty_ele.gpx 1`] = `
 Object {
   "features": Array [
@@ -9437,6 +9947,33 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > extended_data.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -122.0822035425683,
+          37.42228990140251,
+          0,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "description": String(
+          Attached to the ground. Intelligently places itself 
+                 at the height of the underlying terrain.
+        ),
+        "foo": "bar",
+        "name": "Extended data placemark",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -12861,6 +13398,305 @@ Object {
 }
 `
 
+exports[`test/index.test.js TAP toGeoJSON > gxmultitrack.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -71.324739,
+          -40.139527,
+          791.5999755859375,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "description": String(
+          
+          
+             
+        ),
+        "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+        "icon-offset": Array [
+          32,
+          1,
+        ],
+        "icon-scale": 1.3,
+        "name": String(
+          
+          12/04/2014 11:24 AM (départ)
+             
+        ),
+        "styleHash": "7f350914",
+        "styleUrl": "#start",
+        "timestamp": "2014-04-12T14:26:16.702Z",
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              Array [
+                -71.324739,
+                -40.139527,
+                791.5999755859375,
+              ],
+              Array [
+                -71.324819,
+                -40.139536,
+                772,
+              ],
+              Array [
+                -71.324824,
+                -40.139537,
+                771.800048828125,
+              ],
+              Array [
+                -71.324828,
+                -40.139538,
+                771.699951171875,
+              ],
+              Array [
+                -71.324839,
+                -40.139552,
+                772.5999755859375,
+              ],
+              Array [
+                -71.324839,
+                -40.139556,
+                773,
+              ],
+              Array [
+                -71.324843,
+                -40.139555,
+                773.199951171875,
+              ],
+              Array [
+                -71.324848,
+                -40.139563,
+                774,
+              ],
+              Array [
+                -71.324879,
+                -40.139559,
+                774.300048828125,
+              ],
+              Array [
+                -71.324871,
+                -40.139579,
+                774.5999755859375,
+              ],
+              Array [
+                -71.32487,
+                -40.139578,
+                774.699951171875,
+              ],
+              Array [
+                -71.324874,
+                -40.139583,
+                774.5,
+              ],
+              Array [
+                -71.324879,
+                -40.139577,
+                774.4000244140625,
+              ],
+            ],
+            "type": "LineString",
+          },
+          Object {
+            "coordinates": Array [
+              Array [
+                -72.324739,
+                -40.139527,
+                791.5999755859375,
+              ],
+              Array [
+                -72.324819,
+                -40.139536,
+                772,
+              ],
+              Array [
+                -72.324824,
+                -40.139537,
+                771.800048828125,
+              ],
+              Array [
+                -72.324828,
+                -40.139538,
+                771.699951171875,
+              ],
+              Array [
+                -72.324839,
+                -40.139552,
+                772.5999755859375,
+              ],
+              Array [
+                -71.324839,
+                -40.139556,
+                773,
+              ],
+              Array [
+                -71.324843,
+                -40.139555,
+                773.199951171875,
+              ],
+              Array [
+                -71.324848,
+                -40.139563,
+                774,
+              ],
+              Array [
+                -71.324879,
+                -40.139559,
+                774.300048828125,
+              ],
+              Array [
+                -71.324871,
+                -40.139579,
+                774.5999755859375,
+              ],
+              Array [
+                -71.32487,
+                -40.139578,
+                774.699951171875,
+              ],
+              Array [
+                -71.324874,
+                -40.139583,
+                774.5,
+              ],
+              Array [
+                -71.324879,
+                -40.139577,
+                774.4000244140625,
+              ],
+            ],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "id": "tour",
+      "properties": Object {
+        "coordinateProperties": Object {
+          "times": Array [
+            Array [
+              "2014-04-12T14:26:16.702Z",
+              "2014-04-12T14:26:52.761Z",
+              "2014-04-12T14:26:53.745Z",
+              "2014-04-12T14:26:56.656Z",
+              "2014-04-12T14:26:57.639Z",
+              "2014-04-12T14:26:58.658Z",
+              "2014-04-12T14:26:59.744Z",
+              "2014-04-12T14:27:16.749Z",
+              "2014-04-12T14:27:17.741Z",
+              "2014-04-12T14:27:19.657Z",
+              "2014-04-12T14:27:20.643Z",
+              "2014-04-12T14:27:23.687Z",
+              "2014-04-12T14:27:24.638Z",
+            ],
+            Array [
+              "2014-04-12T14:26:16.702Z",
+              "2014-04-12T14:26:52.761Z",
+              "2014-04-12T14:26:53.745Z",
+              "2014-04-12T14:26:56.656Z",
+              "2014-04-12T14:26:57.639Z",
+              "2014-04-12T14:26:58.658Z",
+              "2014-04-12T14:26:59.744Z",
+              "2014-04-12T14:27:16.749Z",
+              "2014-04-12T14:27:17.741Z",
+              "2014-04-12T14:27:19.657Z",
+              "2014-04-12T14:27:20.643Z",
+              "2014-04-12T14:27:23.687Z",
+              "2014-04-12T14:27:24.638Z",
+            ],
+          ],
+        },
+        "description": String(
+          
+          
+             
+        ),
+        "icon": "http://earth.google.com/images/kml-icons/track-directional/track-0.png",
+        "icon-scale": 1.3,
+        "name": String(
+          
+          12/04/2014 11:24 AM
+             
+        ),
+        "stroke": "#ff0000",
+        "stroke-opacity": 0.4980392156862745,
+        "stroke-width": 4,
+        "styleHash": "-7aff0fa",
+        "styleUrl": "#track",
+        "type": String(
+          
+          course à pied
+               
+        ),
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -71.353544,
+          -40.157777,
+          677.300048828125,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "description": String(
+          
+          Créé par Google Mes parcours sur Android
+          
+          Nom : 12/04/2014 11:24 AM
+          Type d'activité : course à pied
+          Description : -
+          Distance totale : 10,43 km (6,5 mi)
+          Durée totale : 1:13:38
+          Durée du déplacement : 1:08:20
+          Vitesse moyenne : 8,49 km/h (5,3 mi/h)
+          Vitesse moyenne de déplacement : 9,16 km/h (5,7 mi/h)
+          Vitesse max. : 12,84 km/h (8,0 mi/h)
+          Vitesse moyenne : 7:04 min/km (11:22 min/mi)
+          Allure moyenne : 6:33 min/km (10:33 min/mi)
+          Vitesse maximale : 4:40 min/km (7:31 min/mi)
+          Élévation max. : 1020 m (3347 pi)
+          Élévation min. : 678 m (2223 pi)
+          Dénivelé : 1095 m (3593 pi)
+          Inclinaison max. : 21 %
+          Inclinaison min. : -24 %
+          Date d'enregistrement : 12/04/2014 11:24 AM
+          
+             
+        ),
+        "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+        "icon-offset": Array [
+          32,
+          1,
+        ],
+        "icon-scale": 1.3,
+        "name": String(
+          
+          12/04/2014 11:24 AM (fin)
+             
+        ),
+        "styleHash": "-16b4bba1",
+        "styleUrl": "#end",
+        "timestamp": "2014-04-12T15:38:07.678Z",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
+}
+`
+
 exports[`test/index.test.js TAP toGeoJSON > gxtrack.kml 1`] = `
 Object {
   "features": Array [
@@ -12922,6 +13758,76 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > gxtrack.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "geometry": Object {
+            "coordinates": Array [
+              Array [
+                -122.207881,
+                37.371915,
+                156,
+              ],
+              Array [
+                -122.205712,
+                37.373288,
+                152,
+              ],
+              Array [
+                -122.204678,
+                37.373939,
+                147,
+              ],
+              Array [
+                -122.203572,
+                37.37463,
+                142.199997,
+              ],
+              Array [
+                -122.203451,
+                37.374706,
+                141.800003,
+              ],
+              Array [
+                -122.203329,
+                37.37478,
+                141.199997,
+              ],
+              Array [
+                -122.203207,
+                37.374857,
+                140.199997,
+              ],
+            ],
+            "type": "LineString",
+          },
+          "properties": Object {
+            "coordinateProperties": Object {
+              "times": Array [
+                "2010-05-28T02:02:09Z",
+                "2010-05-28T02:02:35Z",
+                "2010-05-28T02:02:44Z",
+                "2010-05-28T02:02:53Z",
+                "2010-05-28T02:02:54Z",
+                "2010-05-28T02:02:55Z",
+                "2010-05-28T02:02:56Z",
+              ],
+            },
+          },
+          "type": "Feature",
+        },
+      ],
+      "meta": Object {},
+      "type": "folder",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -13090,6 +13996,179 @@ Object {
 }
 `
 
+exports[`test/index.test.js TAP toGeoJSON > inline_style.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "geometry": Object {
+            "coordinates": Array [
+              Array [
+                2.3101624,
+                48.7301875,
+              ],
+              Array [
+                2.3098714,
+                48.7300247,
+              ],
+              Array [
+                2.3098051,
+                48.7299542,
+              ],
+              Array [
+                2.3098493,
+                48.7298813,
+              ],
+              Array [
+                2.309934,
+                48.7298108,
+              ],
+              Array [
+                2.3100372,
+                48.729806,
+              ],
+              Array [
+                2.3101293,
+                48.7298424,
+              ],
+              Array [
+                2.3101772,
+                48.7298862,
+              ],
+              Array [
+                2.3101661,
+                48.7299542,
+              ],
+              Array [
+                2.3101587,
+                48.7300538,
+              ],
+              Array [
+                2.3101624,
+                48.7301875,
+              ],
+            ],
+            "type": "LineString",
+          },
+          "properties": Object {
+            "fill": "#ff1100",
+            "fill-opacity": 1,
+            "name": "With all inline styles",
+            "stroke": "#ff0000",
+            "stroke-opacity": 0,
+            "stroke-width": 3,
+          },
+          "type": "Feature",
+        },
+        Object {
+          "geometry": Object {
+            "coordinates": Array [
+              Array [
+                2.3101624,
+                48.7301875,
+              ],
+              Array [
+                2.3098714,
+                48.7300247,
+              ],
+              Array [
+                2.3098051,
+                48.7299542,
+              ],
+              Array [
+                2.3098493,
+                48.7298813,
+              ],
+              Array [
+                2.309934,
+                48.7298108,
+              ],
+              Array [
+                2.3100372,
+                48.729806,
+              ],
+              Array [
+                2.3101293,
+                48.7298424,
+              ],
+              Array [
+                2.3101772,
+                48.7298862,
+              ],
+              Array [
+                2.3101661,
+                48.7299542,
+              ],
+              Array [
+                2.3101587,
+                48.7300538,
+              ],
+              Array [
+                2.3101624,
+                48.7301875,
+              ],
+            ],
+            "type": "LineString",
+          },
+          "properties": Object {
+            "fill-opacity": 1,
+            "name": "With some inline styles",
+            "stroke": "#ff0000",
+            "stroke-opacity": 1,
+          },
+          "type": "Feature",
+        },
+        Object {
+          "geometry": Object {
+            "coordinates": Array [
+              Array [
+                2.3131898,
+                48.7315075,
+              ],
+              Array [
+                2.3123173,
+                48.7309455,
+              ],
+              Array [
+                2.312019,
+                48.7308143,
+              ],
+              Array [
+                2.3114185,
+                48.730671,
+              ],
+              Array [
+                2.310796,
+                48.7305252,
+              ],
+              Array [
+                2.3104424,
+                48.7303916,
+              ],
+              Array [
+                2.3101624,
+                48.7301875,
+              ],
+            ],
+            "type": "LineString",
+          },
+          "properties": Object {
+            "name": "Without inline style",
+          },
+          "type": "Feature",
+        },
+      ],
+      "meta": Object {
+        "name": "Inline style test",
+      },
+      "type": "folder",
+    },
+  ],
+  "type": "root",
+}
+`
+
 exports[`test/index.test.js TAP toGeoJSON > linestring.kml 1`] = `
 Object {
   "features": Array [
@@ -13137,6 +14216,56 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > linestring.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          Array [
+            -122.364383,
+            37.824664,
+            0,
+          ],
+          Array [
+            -122.364152,
+            37.824322,
+            0,
+          ],
+        ],
+        "type": "LineString",
+      },
+      "properties": Object {
+        "name": "unextruded",
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          Array [
+            -122.364167,
+            37.824787,
+            50,
+          ],
+          Array [
+            -122.363917,
+            37.824423,
+            50,
+          ],
+        ],
+        "type": "LineString",
+      },
+      "properties": Object {
+        "name": "extruded",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -13205,6 +14334,82 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > literal_color.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "geometry": Object {
+            "coordinates": Array [
+              Array [
+                2.3101624,
+                48.7301875,
+              ],
+              Array [
+                2.3098714,
+                48.7300247,
+              ],
+              Array [
+                2.3098051,
+                48.7299542,
+              ],
+              Array [
+                2.3098493,
+                48.7298813,
+              ],
+              Array [
+                2.309934,
+                48.7298108,
+              ],
+              Array [
+                2.3100372,
+                48.729806,
+              ],
+              Array [
+                2.3101293,
+                48.7298424,
+              ],
+              Array [
+                2.3101772,
+                48.7298862,
+              ],
+              Array [
+                2.3101661,
+                48.7299542,
+              ],
+              Array [
+                2.3101587,
+                48.7300538,
+              ],
+              Array [
+                2.3101624,
+                48.7301875,
+              ],
+            ],
+            "type": "LineString",
+          },
+          "properties": Object {
+            "fill": "ff0011",
+            "fill-opacity": 1,
+            "name": "With all inline styles",
+            "stroke": "ff0",
+            "stroke-opacity": 0,
+            "stroke-width": 3,
+          },
+          "type": "Feature",
+        },
+      ],
+      "meta": Object {
+        "name": "Inline style test",
+      },
+      "type": "folder",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -13415,6 +14620,56 @@ Object {
 }
 `
 
+exports[`test/index.test.js TAP toGeoJSON > multigeometry.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              Array [
+                -122.4425587930444,
+                37.80666418607323,
+                0,
+              ],
+              Array [
+                -122.4428379594768,
+                37.80663578323093,
+                0,
+              ],
+            ],
+            "type": "LineString",
+          },
+          Object {
+            "coordinates": Array [
+              Array [
+                -122.4425509770566,
+                37.80662588061205,
+                0,
+              ],
+              Array [
+                -122.4428340530617,
+                37.8065999493009,
+                0,
+              ],
+            ],
+            "type": "LineString",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "name": "SF Marina Harbor Master",
+        "visibility": "0",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
+}
+`
+
 exports[`test/index.test.js TAP toGeoJSON > multigeometry_discrete.kml 1`] = `
 Object {
   "features": Array [
@@ -13455,6 +14710,49 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > multigeometry_discrete.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "geometries": Array [
+          Object {
+            "coordinates": Array [
+              Array [
+                -122.4425587930444,
+                37.80666418607323,
+                0,
+              ],
+              Array [
+                -122.4428379594768,
+                37.80663578323093,
+                0,
+              ],
+            ],
+            "type": "LineString",
+          },
+          Object {
+            "coordinates": Array [
+              -122.4428340530617,
+              37.8065999493009,
+              0,
+            ],
+            "type": "Point",
+          },
+        ],
+        "type": "GeometryCollection",
+      },
+      "properties": Object {
+        "name": "SF Marina Harbor Master",
+        "visibility": "0",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -13629,6 +14927,180 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > multitrack.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          3.682555,
+          51.050362,
+          50.599998474121094,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+        "icon-offset": Array [
+          32,
+          1,
+        ],
+        "icon-scale": 1.3,
+        "name": "8/8/2013 17:20 (Start)",
+        "styleHash": "7f350914",
+        "styleUrl": "#start",
+        "timestamp": "2013-08-08T15:20:40.000Z",
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          Array [
+            3.68217,
+            51.050583,
+            54.599998474121094,
+          ],
+          Array [
+            3.68211,
+            51.050596,
+            54.79999923706055,
+          ],
+          Array [
+            3.68209,
+            51.050598,
+            55.400001525878906,
+          ],
+          Array [
+            3.682043,
+            51.050609,
+            55.70000076293945,
+          ],
+          Array [
+            3.682012,
+            51.050618,
+            54.5,
+          ],
+          Array [
+            3.68198,
+            51.050629,
+            54.29999923706055,
+          ],
+          Array [
+            3.681945,
+            51.050638,
+            54.79999923706055,
+          ],
+          Array [
+            3.681907,
+            51.050647,
+            54.900001525878906,
+          ],
+          Array [
+            3.68187,
+            51.050656,
+            54.599998474121094,
+          ],
+          Array [
+            3.681834,
+            51.050664,
+            54,
+          ],
+          Array [
+            3.681797,
+            51.050669,
+            55.29999923706055,
+          ],
+          Array [
+            3.681759,
+            51.050673,
+            55.400001525878906,
+          ],
+          Array [
+            3.681721,
+            51.050677,
+            55.20000076293945,
+          ],
+          Array [
+            3.681682,
+            51.050682,
+            54.70000076293945,
+          ],
+          Array [
+            3.681637,
+            51.050685,
+            55.20000076293945,
+          ],
+          Array [
+            3.681589,
+            51.050687,
+            55,
+          ],
+        ],
+        "type": "LineString",
+      },
+      "id": "tour",
+      "properties": Object {
+        "coordinateProperties": Object {
+          "times": Array [
+            "2013-08-08T15:24:47.000Z",
+            "2013-08-08T15:24:48.000Z",
+            "2013-08-08T15:24:50.000Z",
+            "2013-08-08T15:24:51.000Z",
+            "2013-08-08T15:24:52.000Z",
+            "2013-08-08T15:24:53.000Z",
+            "2013-08-08T15:24:54.000Z",
+            "2013-08-08T15:24:55.000Z",
+            "2013-08-08T15:24:56.000Z",
+            "2013-08-08T15:24:57.000Z",
+            "2013-08-08T15:24:58.000Z",
+            "2013-08-08T15:24:59.000Z",
+            "2013-08-08T15:25:00.000Z",
+            "2013-08-08T15:25:01.000Z",
+            "2013-08-08T15:25:02.000Z",
+            "2013-08-08T15:25:03.000Z",
+          ],
+        },
+        "icon": "http://earth.google.com/images/kml-icons/track-directional/track-0.png",
+        "icon-scale": 1.3,
+        "name": "8/8/2013 17:20",
+        "stroke": "#ff0000",
+        "stroke-opacity": 0.4980392156862745,
+        "stroke-width": 4,
+        "styleHash": "-7aff0fa",
+        "styleUrl": "#track",
+        "type": "walking",
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          3.682725,
+          51.050615,
+          61.5,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+        "icon-offset": Array [
+          32,
+          1,
+        ],
+        "icon-scale": 1.3,
+        "name": "8/8/2013 17:20 (End)",
+        "styleHash": "-16b4bba1",
+        "styleUrl": "#end",
+        "timestamp": "2013-08-08T16:25:57.000Z",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -14428,6 +15900,34 @@ Object {
 }
 `
 
+exports[`test/index.test.js TAP toGeoJSON > nogeomplacemark.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "geometry": null,
+          "properties": Object {
+            "fill": "ff0011",
+            "fill-opacity": 1,
+            "name": "With all inline styles",
+            "stroke": "ff0",
+            "stroke-opacity": 0,
+            "stroke-width": 3,
+          },
+          "type": "Feature",
+        },
+      ],
+      "meta": Object {
+        "name": "Inline style test",
+      },
+      "type": "folder",
+    },
+  ],
+  "type": "root",
+}
+`
+
 exports[`test/index.test.js TAP toGeoJSON > non_gx_multitrack.kml 1`] = `
 Object {
   "features": Array [
@@ -14602,6 +16102,180 @@ Object {
 }
 `
 
+exports[`test/index.test.js TAP toGeoJSON > non_gx_multitrack.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          3.682555,
+          51.050362,
+          50.599998474121094,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png",
+        "icon-offset": Array [
+          32,
+          1,
+        ],
+        "icon-scale": 1.3,
+        "name": "8/8/2013 17:20 (Start)",
+        "styleHash": "7f350914",
+        "styleUrl": "#start",
+        "timestamp": "2013-08-08T15:20:40.000Z",
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          Array [
+            3.68217,
+            51.050583,
+            54.599998474121094,
+          ],
+          Array [
+            3.68211,
+            51.050596,
+            54.79999923706055,
+          ],
+          Array [
+            3.68209,
+            51.050598,
+            55.400001525878906,
+          ],
+          Array [
+            3.682043,
+            51.050609,
+            55.70000076293945,
+          ],
+          Array [
+            3.682012,
+            51.050618,
+            54.5,
+          ],
+          Array [
+            3.68198,
+            51.050629,
+            54.29999923706055,
+          ],
+          Array [
+            3.681945,
+            51.050638,
+            54.79999923706055,
+          ],
+          Array [
+            3.681907,
+            51.050647,
+            54.900001525878906,
+          ],
+          Array [
+            3.68187,
+            51.050656,
+            54.599998474121094,
+          ],
+          Array [
+            3.681834,
+            51.050664,
+            54,
+          ],
+          Array [
+            3.681797,
+            51.050669,
+            55.29999923706055,
+          ],
+          Array [
+            3.681759,
+            51.050673,
+            55.400001525878906,
+          ],
+          Array [
+            3.681721,
+            51.050677,
+            55.20000076293945,
+          ],
+          Array [
+            3.681682,
+            51.050682,
+            54.70000076293945,
+          ],
+          Array [
+            3.681637,
+            51.050685,
+            55.20000076293945,
+          ],
+          Array [
+            3.681589,
+            51.050687,
+            55,
+          ],
+        ],
+        "type": "LineString",
+      },
+      "id": "tour",
+      "properties": Object {
+        "coordinateProperties": Object {
+          "times": Array [
+            "2013-08-08T15:24:47.000Z",
+            "2013-08-08T15:24:48.000Z",
+            "2013-08-08T15:24:50.000Z",
+            "2013-08-08T15:24:51.000Z",
+            "2013-08-08T15:24:52.000Z",
+            "2013-08-08T15:24:53.000Z",
+            "2013-08-08T15:24:54.000Z",
+            "2013-08-08T15:24:55.000Z",
+            "2013-08-08T15:24:56.000Z",
+            "2013-08-08T15:24:57.000Z",
+            "2013-08-08T15:24:58.000Z",
+            "2013-08-08T15:24:59.000Z",
+            "2013-08-08T15:25:00.000Z",
+            "2013-08-08T15:25:01.000Z",
+            "2013-08-08T15:25:02.000Z",
+            "2013-08-08T15:25:03.000Z",
+          ],
+        },
+        "icon": "http://earth.google.com/images/kml-icons/track-directional/track-0.png",
+        "icon-scale": 1.3,
+        "name": "8/8/2013 17:20",
+        "stroke": "#ff0000",
+        "stroke-opacity": 0.4980392156862745,
+        "stroke-width": 4,
+        "styleHash": "-7aff0fa",
+        "styleUrl": "#track",
+        "type": "walking",
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          3.682725,
+          51.050615,
+          61.5,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "icon": "http://maps.google.com/mapfiles/kml/paddle/red-circle.png",
+        "icon-offset": Array [
+          32,
+          1,
+        ],
+        "icon-scale": 1.3,
+        "name": "8/8/2013 17:20 (End)",
+        "styleHash": "-16b4bba1",
+        "styleUrl": "#end",
+        "timestamp": "2013-08-08T16:25:57.000Z",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
+}
+`
+
 exports[`test/index.test.js TAP toGeoJSON > noname.kml 1`] = `
 Object {
   "features": Array [
@@ -14666,6 +16340,81 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > noname.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "geometry": Object {
+            "coordinates": Array [
+              Array [
+                2.3101624,
+                48.7301875,
+              ],
+              Array [
+                2.3098714,
+                48.7300247,
+              ],
+              Array [
+                2.3098051,
+                48.7299542,
+              ],
+              Array [
+                2.3098493,
+                48.7298813,
+              ],
+              Array [
+                2.309934,
+                48.7298108,
+              ],
+              Array [
+                2.3100372,
+                48.729806,
+              ],
+              Array [
+                2.3101293,
+                48.7298424,
+              ],
+              Array [
+                2.3101772,
+                48.7298862,
+              ],
+              Array [
+                2.3101661,
+                48.7299542,
+              ],
+              Array [
+                2.3101587,
+                48.7300538,
+              ],
+              Array [
+                2.3101624,
+                48.7301875,
+              ],
+            ],
+            "type": "LineString",
+          },
+          "properties": Object {
+            "fill": "ff0011",
+            "fill-opacity": 1,
+            "stroke": "ff0",
+            "stroke-opacity": 0,
+            "stroke-width": 3,
+          },
+          "type": "Feature",
+        },
+      ],
+      "meta": Object {
+        "name": "Inline style test",
+      },
+      "type": "folder",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -14970,6 +16719,44 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > opacity_override.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "geometry": Object {
+            "coordinates": Array [
+              Array [
+                2.3101624,
+                48.7301875,
+              ],
+              Array [
+                2.3098714,
+                48.7300247,
+              ],
+            ],
+            "type": "LineString",
+          },
+          "properties": Object {
+            "fill": "#1100ff",
+            "fill-opacity": 0.8,
+            "stroke-opacity": 0,
+            "stroke-width": 3,
+          },
+          "type": "Feature",
+        },
+      ],
+      "meta": Object {
+        "name": "Inline style test",
+      },
+      "type": "folder",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -16909,6 +18696,32 @@ Object {
 }
 `
 
+exports[`test/index.test.js TAP toGeoJSON > point.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -122.0822035425683,
+          37.42228990140251,
+          0,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "description": String(
+          Attached to the ground. Intelligently places itself 
+                 at the height of the underlying terrain.
+        ),
+        "name": "Simple placemark",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
+}
+`
+
 exports[`test/index.test.js TAP toGeoJSON > point_id.kml 1`] = `
 Object {
   "features": Array [
@@ -16932,6 +18745,32 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > point_id.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -122.0822035425683,
+          37.42228990140251,
+          0,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "description": String(
+          Attached to the ground. Intelligently places itself 
+                 at the height of the underlying terrain.
+        ),
+        "name": "Simple placemark",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -17005,6 +18844,79 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > polygon.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          Array [
+            Array [
+              -122.366278,
+              37.818844,
+              30,
+            ],
+            Array [
+              -122.365248,
+              37.819267,
+              30,
+            ],
+            Array [
+              -122.36564,
+              37.819861,
+              30,
+            ],
+            Array [
+              -122.366669,
+              37.819429,
+              30,
+            ],
+            Array [
+              -122.366278,
+              37.818844,
+              30,
+            ],
+          ],
+          Array [
+            Array [
+              -122.366212,
+              37.818977,
+              30,
+            ],
+            Array [
+              -122.365424,
+              37.819294,
+              30,
+            ],
+            Array [
+              -122.365704,
+              37.819731,
+              30,
+            ],
+            Array [
+              -122.366488,
+              37.819402,
+              30,
+            ],
+            Array [
+              -122.366212,
+              37.818977,
+              30,
+            ],
+          ],
+        ],
+        "type": "Polygon",
+      },
+      "properties": Object {
+        "name": "hollow box",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -19009,6 +20921,28 @@ Object {
 }
 `
 
+exports[`test/index.test.js TAP toGeoJSON > selfclosing.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          Array [
+            null,
+          ],
+        ],
+        "type": "LineString",
+      },
+      "properties": Object {
+        "name": "unextruded",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
+}
+`
+
 exports[`test/index.test.js TAP toGeoJSON > simpledata.kml 1`] = `
 Object {
   "features": Array [
@@ -19050,6 +20984,50 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > simpledata.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -122,
+          37.002,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "ElevationGain": "10",
+        "name": "Easy trail",
+        "styleHash": "-584e03c9",
+        "styleUrl": "#trailhead-balloon-template",
+        "TrailHeadName": "Pi in the sky",
+        "TrailLength": "3.14159",
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -121.998,
+          37.0078,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "ElevationGain": "10000",
+        "name": "Difficult trail",
+        "styleHash": "-584e03c9",
+        "styleUrl": "#trailhead-balloon-template",
+        "TrailHeadName": "Mount Everest",
+        "TrailLength": "347.45",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -21001,6 +22979,77 @@ Object {
 }
 `
 
+exports[`test/index.test.js TAP toGeoJSON > style.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -122.0822035425683,
+          37.42228990140251,
+          0,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "description": "Here is some descriptive text",
+        "icon": "http://myserver.com/icon.jpg",
+        "icon-color": "#ff00ff",
+        "icon-opacity": 0.6313725490196078,
+        "icon-scale": 1.399999976158142,
+        "name": "Google Earth - New Polygon",
+        "styleHash": "34215c41",
+        "styleUrl": "#a",
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -122.0822035425683,
+          37.42228990140251,
+          0,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "icon": "http://myserver.com/icon.jpg",
+        "icon-color": "#ff00ff",
+        "icon-opacity": 0.6313725490196078,
+        "icon-scale": 1.399999976158142,
+        "name": "Google Earth - New Path",
+        "styleHash": "149ab242",
+        "styleUrl": "#b",
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -122.0822035425683,
+          37.42228990140251,
+          0,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "icon": "http://myserver.com/icon.jpg",
+        "icon-color": "#ff00ff",
+        "icon-opacity": 0.6313725490196078,
+        "icon-scale": 1.399999976158142,
+        "label-color": "#000000",
+        "label-opacity": 1,
+        "name": "Google Earth - New Label",
+        "styleHash": "-6528509d",
+        "styleUrl": "#c",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
+}
+`
+
 exports[`test/index.test.js TAP toGeoJSON > style_url.kml 1`] = `
 Object {
   "features": Array [
@@ -21122,6 +23171,127 @@ Object {
 }
 `
 
+exports[`test/index.test.js TAP toGeoJSON > style_url.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          Array [
+            Array [
+              -122.0857412771483,
+              37.42227033155257,
+              17,
+            ],
+            Array [
+              -122.0858169768481,
+              37.42231408832346,
+              17,
+            ],
+            Array [
+              -122.085852582875,
+              37.42230337469744,
+              17,
+            ],
+            Array [
+              -122.0858799945639,
+              37.42225686138789,
+              17,
+            ],
+            Array [
+              -122.0858860101409,
+              37.4222311076138,
+              17,
+            ],
+            Array [
+              -122.0858069157288,
+              37.42220250173855,
+              17,
+            ],
+            Array [
+              -122.0858379542653,
+              37.42214027058678,
+              17,
+            ],
+            Array [
+              -122.0856732640519,
+              37.42208690214408,
+              17,
+            ],
+            Array [
+              -122.0856022926407,
+              37.42214885429042,
+              17,
+            ],
+            Array [
+              -122.0855902778436,
+              37.422128290487,
+              17,
+            ],
+            Array [
+              -122.0855841672237,
+              37.42208171967246,
+              17,
+            ],
+            Array [
+              -122.0854852065741,
+              37.42210455874995,
+              17,
+            ],
+            Array [
+              -122.0855067264352,
+              37.42214267949824,
+              17,
+            ],
+            Array [
+              -122.0854430712915,
+              37.42212783846172,
+              17,
+            ],
+            Array [
+              -122.0850990714904,
+              37.42251282407603,
+              17,
+            ],
+            Array [
+              -122.0856769818632,
+              37.42281815323651,
+              17,
+            ],
+            Array [
+              -122.0860162273783,
+              37.42244918858722,
+              17,
+            ],
+            Array [
+              -122.0857260327004,
+              37.42229239604253,
+              17,
+            ],
+            Array [
+              -122.0857412771483,
+              37.42227033155257,
+              17,
+            ],
+          ],
+        ],
+        "type": "Polygon",
+      },
+      "properties": Object {
+        "fill": "#0000ff",
+        "fill-opacity": 0.49019607843137253,
+        "name": "Building 41",
+        "stroke-width": 1.5,
+        "styleHash": "-25ae1a08",
+        "styleUrl": "#transBluePoly",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
+}
+`
+
 exports[`test/index.test.js TAP toGeoJSON > styles.kml 1`] = `
 Object {
   "features": Array [
@@ -21214,6 +23384,108 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > styles.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [],
+      "meta": Object {
+        "name": "Untitled Folder",
+      },
+      "type": "folder",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          21.00062301000721,
+          48.77257131826958,
+          1011.317797185818,
+        ],
+        "type": "Point",
+      },
+      "id": "00A083AD2520769B213A",
+      "properties": Object {
+        "description": "<div>Ahoj <b>PM</b></div>",
+        "fill": "#ffffff",
+        "fill-opacity": 0.25098039215686274,
+        "icon": "https://earth.google.com/earth/rpc/cc/icon?color=1976d2&id=2006&scale=4",
+        "icon-offset": Array [
+          64,
+          128,
+        ],
+        "name": "Untitled Placemark",
+        "stroke": "#fbc02d",
+        "stroke-opacity": 1,
+        "stroke-width": 2.13333,
+        "styleHash": "-42577181",
+        "styleMapHash": Object {
+          "highlight": "#__managed_style_21BB934A3420769B4A67",
+          "normal": "#__managed_style_1AF19DBC7E20769B4A67",
+        },
+        "styleUrl": "#__managed_style_04D1BA179420769B4A67",
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          Array [
+            Array [
+              20.99533143425753,
+              48.76385474037835,
+              817.5844849086294,
+            ],
+            Array [
+              21.00506376944139,
+              48.76355632184772,
+              896.3736545453368,
+            ],
+            Array [
+              21.00499721332549,
+              48.77057344889175,
+              1026.856093377534,
+            ],
+            Array [
+              20.99495695589513,
+              48.77073832155815,
+              991.0859038879247,
+            ],
+            Array [
+              20.99533143425753,
+              48.76385474037835,
+              817.5844849086294,
+            ],
+          ],
+        ],
+        "type": "Polygon",
+      },
+      "id": "0F66A23B9820769D44FC",
+      "properties": Object {
+        "fill": "#ffee58",
+        "fill-opacity": 0.25098039215686274,
+        "icon": "https://earth.google.com/earth/rpc/cc/icon?color=1976d2&id=2000&scale=4",
+        "icon-offset": Array [
+          64,
+          128,
+        ],
+        "name": "Untitled Polygon",
+        "stroke": "#303f9f",
+        "stroke-opacity": 1,
+        "stroke-width": 2.13333,
+        "styleHash": "1b52cb1d",
+        "styleMapHash": Object {
+          "highlight": "#__managed_style_24D42D73B520769D5922",
+          "normal": "#__managed_style_1CAC85685820769D5922",
+        },
+        "styleUrl": "#__managed_style_01C13F4A1E20769D5922",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -21460,6 +23732,55 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > timespan.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "geometry": Object {
+            "coordinates": Array [
+              Array [
+                Array [
+                  115.87726,
+                  24.93583,
+                  0,
+                ],
+                Array [
+                  115.87075,
+                  24.93053,
+                  0,
+                ],
+                Array [
+                  115.87439,
+                  24.90768,
+                  0,
+                ],
+              ],
+            ],
+            "type": "Polygon",
+          },
+          "properties": Object {
+            "name": "1",
+            "styleUrl": "#FEATURES",
+            "timespan": Object {
+              "begin": "0725",
+              "end": "0733",
+            },
+          },
+          "type": "Feature",
+        },
+      ],
+      "meta": Object {
+        "name": "Features",
+      },
+      "type": "folder",
+    },
+  ],
+  "type": "root",
 }
 `
 
@@ -25411,6 +27732,50 @@ Object {
     },
   ],
   "type": "FeatureCollection",
+}
+`
+
+exports[`test/index.test.js TAP toGeoJSON > twopoints.kml 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -122.0822035425683,
+          37.42228990140251,
+          0,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "description": String(
+          Attached to the ground. Intelligently places itself 
+                 at the height of the underlying terrain.
+        ),
+        "name": "Simple placemark",
+      },
+      "type": "Feature",
+    },
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          -120.0822035425683,
+          37.42228990140251,
+          0,
+        ],
+        "type": "Point",
+      },
+      "properties": Object {
+        "description": String(
+          Attached to the ground. Intelligently places itself 
+                 at the height of the underlying terrain.
+        ),
+        "name": "Simple placemark two",
+      },
+      "type": "Feature",
+    },
+  ],
+  "type": "root",
 }
 `
 
