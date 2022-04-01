@@ -1,5 +1,5 @@
 {
-  "name": "somewear-labs/togeojson",
+  "name": "@somewear-labs/togeojson",
   "version": "5.0.0-5",
   "description": "convert KML and GPX to GeoJSON",
   "source": "lib/index.ts",
