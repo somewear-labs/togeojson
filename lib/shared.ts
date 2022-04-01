@@ -9,8 +9,15 @@ export type F = Feature<Geometry | null>;
 
 export type StyleMap = { [key: string]: P };
 
+/**
+ * normalize an id to be prefixed with # and not contain leading or trailing spaces
+ * should match regex ^#[^\s]+(.*)[^\s]*$
+ *
+ * this is needed for situations where an xml document may not have been properly
+ * formatted and an element's text representing the id may have leading or trailing spaces
+ */
 export function normalizeId(id: string) {
-  return id[0] === "#" ? id : `#${id}`;
+  return id[0] === "#" ? id.trim() : `#${id.trim()}`;
 }
 
 export function $ns(
