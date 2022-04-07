@@ -28,14 +28,10 @@ describe("extractStyle", () => {
       )
     ).toEqual({
       "icon": "https://earth.google.com/earth/rpc/cc/icon?color=1976d2&id=2000&scale=4",
-      "icon-color": "#303f9f",
       "icon-offset": [
         64,
         128
       ],
-      "icon-opacity": 1,
-      "label-color": "#303f9f",
-      "label-opacity": 1,
       "line-stroke-color": "#303f9f",
       "line-stroke-opacity": 1,
       "line-stroke-width": 2.13333,

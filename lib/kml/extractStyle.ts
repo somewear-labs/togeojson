@@ -16,7 +16,6 @@ function getColor(node: Element, output: string): P {
 export function extractIcon(node: Element) {
   return get(node, "IconStyle", (iconStyle) => {
     return Object.assign(
-      getColor(node, "icon"),
       getColor(iconStyle, "icon"),
       numericProperty(iconStyle, "scale", "icon-scale"),
       numericProperty(iconStyle, "heading", "icon-heading"),
@@ -39,7 +38,6 @@ export function extractIcon(node: Element) {
 export function extractLabel(node: Element) {
   return get(node, "LabelStyle", (labelStyle) => {
     return Object.assign(
-      getColor(node, "label"),
       getColor(labelStyle, "label"),
       numericProperty(labelStyle, "scale", "label-color")
     );
@@ -49,7 +47,6 @@ export function extractLabel(node: Element) {
 export function extractLine(node: Element) {
   return get(node, "LineStyle", (lineStyle) => {
     return Object.assign(
-      getColor(node, "line-stroke"),
       getColor(lineStyle, "line-stroke"),
       numericProperty(lineStyle, "width", "line-stroke-width")
     );
@@ -60,7 +57,6 @@ export function extractPoly(node: Element) {
   return get(node, "PolyStyle", (polyStyle, properties) => {
     return Object.assign(
       properties,
-      getColor(node, "poly-fill"),
       getColor(polyStyle, "poly-fill"),
       val1(polyStyle, "fill", (fill) => {
         if (fill === "0") return { "poly-fill-opacity": 0 };
