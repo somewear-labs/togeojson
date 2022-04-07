@@ -11,7 +11,7 @@ function parse(file: string) {
 }
 
 describe("toGeoJSON", () => {
-  // Loop through all files except hidden ones
+  // Loop through all files except hidden ones
   for (const file of fs
     .readdirSync(d)
     .filter((item) => !item.startsWith("."))) {
@@ -59,9 +59,9 @@ describe("mini cases", () => {
                 },
                 "properties": Object {
                   "name": "With all inline styles",
-                  "stroke": "#ff0000",
-                  "stroke-opacity": 1,
-                  "stroke-width": 3,
+                  "line-stroke-color": "#ff0000",
+                  "line-stroke-opacity": 1,
+                  "line-stroke-width": 3,
                 },
                 "type": "Feature",
               },

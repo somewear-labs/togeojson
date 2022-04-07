@@ -39,7 +39,7 @@ export function extractLabel(node: Element) {
   return get(node, "LabelStyle", (labelStyle) => {
     return Object.assign(
       getColor(node, "label"),
-      numericProperty(labelStyle, "scale", "label-scale")
+      numericProperty(labelStyle, "scale", "label-color")
     );
   });
 }
@@ -47,8 +47,8 @@ export function extractLabel(node: Element) {
 export function extractLine(node: Element) {
   return get(node, "LineStyle", (lineStyle) => {
     return Object.assign(
-      getColor(node, "stroke"),
-      numericProperty(lineStyle, "width", "stroke-width")
+      getColor(node, "line-stroke"),
+      numericProperty(lineStyle, "width", "line-stroke-width")
     );
   });
 }
@@ -57,12 +57,12 @@ export function extractPoly(node: Element) {
   return get(node, "PolyStyle", (polyStyle, properties) => {
     return Object.assign(
       properties,
-      get(polyStyle, "color", (elem) => fixColor(nodeVal(elem), "fill")),
+      get(polyStyle, "color", (elem) => fixColor(nodeVal(elem), "poly-fill")),
       val1(polyStyle, "fill", (fill) => {
-        if (fill === "0") return { "fill-opacity": 0 };
+        if (fill === "0") return { "poly-fill-opacity": 0 };
       }),
       val1(polyStyle, "outline", (outline) => {
-        if (outline === "0") return { "stroke-opacity": 0 };
+        if (outline === "0") return { "poly-stroke-opacity": 0 };
       })
     );
   });
