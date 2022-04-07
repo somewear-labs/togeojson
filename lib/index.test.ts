@@ -58,10 +58,10 @@ describe("mini cases", () => {
                   "type": "LineString",
                 },
                 "properties": Object {
-                  "name": "With all inline styles",
                   "line-stroke-color": "#ff0000",
                   "line-stroke-opacity": 1,
                   "line-stroke-width": 3,
+                  "name": "With all inline styles",
                 },
                 "type": "Feature",
               },
