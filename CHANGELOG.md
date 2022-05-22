@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.1.3](https://github.com/placemarkio/togeojson/compare/v5.1.2...v5.1.3) (2022-05-22)
+
+
+### Bug Fixes
+
+* Switch ESM entry point to use .mjs ending to fix Node.js native ESM support ([cd366b8](https://github.com/placemarkio/togeojson/commit/cd366b8b497a53803451221ebd8704d72e4c6e4a))
+
 ### [5.1.3-0](https://github.com/placemarkio/togeojson/compare/v5.1.2...v5.1.3-0) (2022-05-22)
 
 ### [5.1.2](https://github.com/placemarkio/togeojson/compare/v5.1.0...v5.1.2) (2022-04-24)
