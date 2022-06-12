@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.2.0](https://github.com/placemarkio/togeojson/compare/v5.1.3...v5.2.0) (2022-06-12)
+
+
+### Features
+
+* Handle HTML in description tags ([#90](https://github.com/placemarkio/togeojson/issues/90)) ([1d2dbfe](https://github.com/placemarkio/togeojson/commit/1d2dbfe160d6b998fd945d2c6194451a7928ed02))
+
 ## [5.2.0-1](https://github.com/placemarkio/togeojson/compare/v5.2.0-0...v5.2.0-1) (2022-06-12)
 
 
