@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.2.1](https://github.com/placemarkio/togeojson/compare/v5.2.0...v5.2.1) (2022-06-15)
+
+
+### Bug Fixes
+
+* Limit extracted coordinates to 3 ([#91](https://github.com/placemarkio/togeojson/issues/91)) ([b35d5a2](https://github.com/placemarkio/togeojson/commit/b35d5a2b21dfd392dee816f22caf4dd000aa6b91))
+
 ## [5.2.0](https://github.com/placemarkio/togeojson/compare/v5.1.3...v5.2.0) (2022-06-12)
 
 
