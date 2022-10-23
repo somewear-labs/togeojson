@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.3.0](https://github.com/placemark/togeojson/compare/v5.2.1...v5.3.0) (2022-10-23)
+
+
+### Features
+
+* Import visibility ([#94](https://github.com/placemark/togeojson/issues/94)) ([920c869](https://github.com/placemark/togeojson/commit/920c869f4233d5f0dba04e6ba7cbc5739d8cca86))
+
+
+### Bug Fixes
+
+* properly support KMLs with sibling MultiGeometries ([#96](https://github.com/placemark/togeojson/issues/96)) ([f0e978a](https://github.com/placemark/togeojson/commit/f0e978a2932268cc5b1f9e023882a32d16fe6abd))
+
 ### [5.2.2](https://github.com/placemark/togeojson/compare/v5.2.1...v5.2.2) (2022-08-09)
 
 ### [5.2.1](https://github.com/placemarkio/togeojson/compare/v5.2.0...v5.2.1) (2022-06-15)
