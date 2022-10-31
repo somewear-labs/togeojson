@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.4.0](https://github.com/placemark/togeojson/compare/v5.3.0...v5.4.0) (2022-10-31)
+
+
+### Features
+
+* Ground overlays ([#98](https://github.com/placemark/togeojson/issues/98)) ([43d357d](https://github.com/placemark/togeojson/commit/43d357db277db069caa2d543ba88f9f7ef862ad0))
+
 ## [5.3.0](https://github.com/placemark/togeojson/compare/v5.2.1...v5.3.0) (2022-10-23)
 
 
