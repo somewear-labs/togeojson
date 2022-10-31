@@ -1,5 +1,6 @@
 import { extractStyle } from "./kml/extractStyle";
 import { getPlacemark } from "./kml/placemark";
+import { getGroundOverlay } from "./kml/ground_overlay";
 import { FeatureCollection, Geometry } from "geojson";
 import {
   $,
@@ -125,6 +126,23 @@ function getFolder(node: Element): Folder {
  *   ]
  * }
  * ```
+ *
+ * ### GroundOverlay
+ *
+ * GroundOverlay elements are converted into
+ * `Feature` objects with `Polygon` geometries,
+ * a property like:
+ *
+ * ```json
+ * {
+ *   "@geometry-type": "groundoverlay"
+ * }
+ * ```
+ *
+ * And the ground overlay's image URL in the `href`
+ * property. Ground overlays will need to be displayed
+ * with a separate method to other features, depending
+ * on which map framework you're using.
  */
 export function kmlWithFolders(node: Document): Root {
   const styleMap = buildStyleMap(node);
@@ -141,6 +159,14 @@ export function kmlWithFolders(node: Document): Root {
   ) {
     if (isElement(node)) {
       switch (node.tagName) {
+        case "GroundOverlay": {
+          placemarks.push(node);
+          const placemark = getGroundOverlay(node, styleMap);
+          if (placemark) {
+            pointer.children.push(placemark);
+          }
+          break;
+        }
         case "Placemark": {
           placemarks.push(node);
           const placemark = getPlacemark(node, styleMap);
@@ -179,6 +205,10 @@ export function* kmlGen(node: Document): Generator<F> {
   const styleMap = buildStyleMap(node);
   for (const placemark of $(node, "Placemark")) {
     const feature = getPlacemark(placemark, styleMap);
+    if (feature) yield feature;
+  }
+  for (const groundOverlay of $(node, "GroundOverlay")) {
+    const feature = getGroundOverlay(groundOverlay, styleMap);
     if (feature) yield feature;
   }
 }
