@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.5.0](https://github.com/placemark/togeojson/compare/v5.4.0...v5.5.0) (2022-11-12)
+
+
+### Features
+
+* Add support for Schema tag and convert properties to correct datatype ([#100](https://github.com/placemark/togeojson/issues/100)) ([22479aa](https://github.com/placemark/togeojson/commit/22479aa3723d26f789561c1f4fb369fdc3be8085)), closes [#69](https://github.com/placemark/togeojson/issues/69)
+
 ## [5.4.0](https://github.com/placemark/togeojson/compare/v5.3.0...v5.4.0) (2022-10-31)
 
 
