@@ -1,0 +1,789 @@
+\
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Peshtigo Preserve Parcels</name>
+	<Schema name="V204_Wisconsin_Parcels_FOREST" id="S_V204_Wisconsin_Parcels_FOREST_SSSSSSSSSSSSSSSSSSSSSSSSSSDDDDDDDSSDDDSSSSDDDD">
+		<SimpleField type="string" name="STATEID"><displayName>&lt;b&gt;STATEID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PARCELID"><displayName>&lt;b&gt;PARCELID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TAXPARCELI"><displayName>&lt;b&gt;TAXPARCELI&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PARCELDATE"><displayName>&lt;b&gt;PARCELDATE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TAXROLLYEA"><displayName>&lt;b&gt;TAXROLLYEA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="OWNERNME1"><displayName>&lt;b&gt;OWNERNME1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="OWNERNME2"><displayName>&lt;b&gt;OWNERNME2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PSTLADRESS"><displayName>&lt;b&gt;PSTLADRESS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SITEADRESS"><displayName>&lt;b&gt;SITEADRESS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ADDNUMPREF"><displayName>&lt;b&gt;ADDNUMPREF&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ADDNUM"><displayName>&lt;b&gt;ADDNUM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ADDNUMSUFF"><displayName>&lt;b&gt;ADDNUMSUFF&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PREFIX"><displayName>&lt;b&gt;PREFIX&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="STREETNAME"><displayName>&lt;b&gt;STREETNAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="STREETTYPE"><displayName>&lt;b&gt;STREETTYPE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SUFFIX"><displayName>&lt;b&gt;SUFFIX&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LANDMARKNA"><displayName>&lt;b&gt;LANDMARKNA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="UNITTYPE"><displayName>&lt;b&gt;UNITTYPE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="UNITID"><displayName>&lt;b&gt;UNITID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PLACENAME"><displayName>&lt;b&gt;PLACENAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ZIPCODE"><displayName>&lt;b&gt;ZIPCODE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ZIP4"><displayName>&lt;b&gt;ZIP4&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="STATE"><displayName>&lt;b&gt;STATE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SCHOOLDIST"><displayName>&lt;b&gt;SCHOOLDIST&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SCHOOLDI_1"><displayName>&lt;b&gt;SCHOOLDI_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="IMPROVED"><displayName>&lt;b&gt;IMPROVED&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="CNTASSDVAL"><displayName>&lt;b&gt;CNTASSDVAL&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="LNDVALUE"><displayName>&lt;b&gt;LNDVALUE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="IMPVALUE"><displayName>&lt;b&gt;IMPVALUE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="FORESTVALU"><displayName>&lt;b&gt;FORESTVALU&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ESTFMKVALU"><displayName>&lt;b&gt;ESTFMKVALU&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="NETPRPTA"><displayName>&lt;b&gt;NETPRPTA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="GRSPRPTA"><displayName>&lt;b&gt;GRSPRPTA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PROPCLASS"><displayName>&lt;b&gt;PROPCLASS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="AUXCLASS"><displayName>&lt;b&gt;AUXCLASS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ASSDACRES"><displayName>&lt;b&gt;ASSDACRES&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="DEEDACRES"><displayName>&lt;b&gt;DEEDACRES&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="GISACRES"><displayName>&lt;b&gt;GISACRES&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CONAME"><displayName>&lt;b&gt;CONAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LOADDATE"><displayName>&lt;b&gt;LOADDATE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PARCELFIPS"><displayName>&lt;b&gt;PARCELFIPS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PARCELSRC"><displayName>&lt;b&gt;PARCELSRC&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="LONGITUDE"><displayName>&lt;b&gt;LONGITUDE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="LATITUDE"><displayName>&lt;b&gt;LATITUDE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Leng"><displayName>&lt;b&gt;Shape_Leng&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Shape_Area"><displayName>&lt;b&gt;Shape_Area&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>STATEID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STATEID]</td></tr>
+  <tr><td><b>PARCELID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELID]</td></tr>
+  <tr><td><b>TAXPARCELI</b></td><td>$[V204_Wisconsin_Parcels_FOREST/TAXPARCELI]</td></tr>
+  <tr><td><b>PARCELDATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELDATE]</td></tr>
+  <tr><td><b>TAXROLLYEA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/TAXROLLYEA]</td></tr>
+  <tr><td><b>OWNERNME1</b></td><td>$[V204_Wisconsin_Parcels_FOREST/OWNERNME1]</td></tr>
+  <tr><td><b>OWNERNME2</b></td><td>$[V204_Wisconsin_Parcels_FOREST/OWNERNME2]</td></tr>
+  <tr><td><b>PSTLADRESS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PSTLADRESS]</td></tr>
+  <tr><td><b>SITEADRESS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SITEADRESS]</td></tr>
+  <tr><td><b>ADDNUMPREF</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUMPREF]</td></tr>
+  <tr><td><b>ADDNUM</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUM]</td></tr>
+  <tr><td><b>ADDNUMSUFF</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUMSUFF]</td></tr>
+  <tr><td><b>PREFIX</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PREFIX]</td></tr>
+  <tr><td><b>STREETNAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STREETNAME]</td></tr>
+  <tr><td><b>STREETTYPE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STREETTYPE]</td></tr>
+  <tr><td><b>SUFFIX</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SUFFIX]</td></tr>
+  <tr><td><b>LANDMARKNA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LANDMARKNA]</td></tr>
+  <tr><td><b>UNITTYPE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/UNITTYPE]</td></tr>
+  <tr><td><b>UNITID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/UNITID]</td></tr>
+  <tr><td><b>PLACENAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PLACENAME]</td></tr>
+  <tr><td><b>ZIPCODE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ZIPCODE]</td></tr>
+  <tr><td><b>ZIP4</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ZIP4]</td></tr>
+  <tr><td><b>STATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STATE]</td></tr>
+  <tr><td><b>SCHOOLDIST</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SCHOOLDIST]</td></tr>
+  <tr><td><b>SCHOOLDI_1</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SCHOOLDI_1]</td></tr>
+  <tr><td><b>IMPROVED</b></td><td>$[V204_Wisconsin_Parcels_FOREST/IMPROVED]</td></tr>
+  <tr><td><b>CNTASSDVAL</b></td><td>$[V204_Wisconsin_Parcels_FOREST/CNTASSDVAL]</td></tr>
+  <tr><td><b>LNDVALUE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LNDVALUE]</td></tr>
+  <tr><td><b>IMPVALUE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/IMPVALUE]</td></tr>
+  <tr><td><b>FORESTVALU</b></td><td>$[V204_Wisconsin_Parcels_FOREST/FORESTVALU]</td></tr>
+  <tr><td><b>ESTFMKVALU</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ESTFMKVALU]</td></tr>
+  <tr><td><b>NETPRPTA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/NETPRPTA]</td></tr>
+  <tr><td><b>GRSPRPTA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/GRSPRPTA]</td></tr>
+  <tr><td><b>PROPCLASS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PROPCLASS]</td></tr>
+  <tr><td><b>AUXCLASS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/AUXCLASS]</td></tr>
+  <tr><td><b>ASSDACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ASSDACRES]</td></tr>
+  <tr><td><b>DEEDACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/DEEDACRES]</td></tr>
+  <tr><td><b>GISACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/GISACRES]</td></tr>
+  <tr><td><b>CONAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/CONAME]</td></tr>
+  <tr><td><b>LOADDATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LOADDATE]</td></tr>
+  <tr><td><b>PARCELFIPS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELFIPS]</td></tr>
+  <tr><td><b>PARCELSRC</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELSRC]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LATITUDE]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[V204_Wisconsin_Parcels_FOREST/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[V204_Wisconsin_Parcels_FOREST/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff06ff21</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>STATEID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STATEID]</td></tr>
+  <tr><td><b>PARCELID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELID]</td></tr>
+  <tr><td><b>TAXPARCELI</b></td><td>$[V204_Wisconsin_Parcels_FOREST/TAXPARCELI]</td></tr>
+  <tr><td><b>PARCELDATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELDATE]</td></tr>
+  <tr><td><b>TAXROLLYEA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/TAXROLLYEA]</td></tr>
+  <tr><td><b>OWNERNME1</b></td><td>$[V204_Wisconsin_Parcels_FOREST/OWNERNME1]</td></tr>
+  <tr><td><b>OWNERNME2</b></td><td>$[V204_Wisconsin_Parcels_FOREST/OWNERNME2]</td></tr>
+  <tr><td><b>PSTLADRESS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PSTLADRESS]</td></tr>
+  <tr><td><b>SITEADRESS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SITEADRESS]</td></tr>
+  <tr><td><b>ADDNUMPREF</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUMPREF]</td></tr>
+  <tr><td><b>ADDNUM</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUM]</td></tr>
+  <tr><td><b>ADDNUMSUFF</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUMSUFF]</td></tr>
+  <tr><td><b>PREFIX</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PREFIX]</td></tr>
+  <tr><td><b>STREETNAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STREETNAME]</td></tr>
+  <tr><td><b>STREETTYPE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STREETTYPE]</td></tr>
+  <tr><td><b>SUFFIX</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SUFFIX]</td></tr>
+  <tr><td><b>LANDMARKNA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LANDMARKNA]</td></tr>
+  <tr><td><b>UNITTYPE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/UNITTYPE]</td></tr>
+  <tr><td><b>UNITID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/UNITID]</td></tr>
+  <tr><td><b>PLACENAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PLACENAME]</td></tr>
+  <tr><td><b>ZIPCODE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ZIPCODE]</td></tr>
+  <tr><td><b>ZIP4</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ZIP4]</td></tr>
+  <tr><td><b>STATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STATE]</td></tr>
+  <tr><td><b>SCHOOLDIST</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SCHOOLDIST]</td></tr>
+  <tr><td><b>SCHOOLDI_1</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SCHOOLDI_1]</td></tr>
+  <tr><td><b>IMPROVED</b></td><td>$[V204_Wisconsin_Parcels_FOREST/IMPROVED]</td></tr>
+  <tr><td><b>CNTASSDVAL</b></td><td>$[V204_Wisconsin_Parcels_FOREST/CNTASSDVAL]</td></tr>
+  <tr><td><b>LNDVALUE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LNDVALUE]</td></tr>
+  <tr><td><b>IMPVALUE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/IMPVALUE]</td></tr>
+  <tr><td><b>FORESTVALU</b></td><td>$[V204_Wisconsin_Parcels_FOREST/FORESTVALU]</td></tr>
+  <tr><td><b>ESTFMKVALU</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ESTFMKVALU]</td></tr>
+  <tr><td><b>NETPRPTA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/NETPRPTA]</td></tr>
+  <tr><td><b>GRSPRPTA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/GRSPRPTA]</td></tr>
+  <tr><td><b>PROPCLASS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PROPCLASS]</td></tr>
+  <tr><td><b>AUXCLASS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/AUXCLASS]</td></tr>
+  <tr><td><b>ASSDACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ASSDACRES]</td></tr>
+  <tr><td><b>DEEDACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/DEEDACRES]</td></tr>
+  <tr><td><b>GISACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/GISACRES]</td></tr>
+  <tr><td><b>CONAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/CONAME]</td></tr>
+  <tr><td><b>LOADDATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LOADDATE]</td></tr>
+  <tr><td><b>PARCELFIPS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELFIPS]</td></tr>
+  <tr><td><b>PARCELSRC</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELSRC]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LATITUDE]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[V204_Wisconsin_Parcels_FOREST/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[V204_Wisconsin_Parcels_FOREST/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff06ff21</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>STATEID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STATEID]</td></tr>
+  <tr><td><b>PARCELID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELID]</td></tr>
+  <tr><td><b>TAXPARCELI</b></td><td>$[V204_Wisconsin_Parcels_FOREST/TAXPARCELI]</td></tr>
+  <tr><td><b>PARCELDATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELDATE]</td></tr>
+  <tr><td><b>TAXROLLYEA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/TAXROLLYEA]</td></tr>
+  <tr><td><b>OWNERNME1</b></td><td>$[V204_Wisconsin_Parcels_FOREST/OWNERNME1]</td></tr>
+  <tr><td><b>OWNERNME2</b></td><td>$[V204_Wisconsin_Parcels_FOREST/OWNERNME2]</td></tr>
+  <tr><td><b>PSTLADRESS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PSTLADRESS]</td></tr>
+  <tr><td><b>SITEADRESS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SITEADRESS]</td></tr>
+  <tr><td><b>ADDNUMPREF</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUMPREF]</td></tr>
+  <tr><td><b>ADDNUM</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUM]</td></tr>
+  <tr><td><b>ADDNUMSUFF</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUMSUFF]</td></tr>
+  <tr><td><b>PREFIX</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PREFIX]</td></tr>
+  <tr><td><b>STREETNAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STREETNAME]</td></tr>
+  <tr><td><b>STREETTYPE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STREETTYPE]</td></tr>
+  <tr><td><b>SUFFIX</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SUFFIX]</td></tr>
+  <tr><td><b>LANDMARKNA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LANDMARKNA]</td></tr>
+  <tr><td><b>UNITTYPE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/UNITTYPE]</td></tr>
+  <tr><td><b>UNITID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/UNITID]</td></tr>
+  <tr><td><b>PLACENAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PLACENAME]</td></tr>
+  <tr><td><b>ZIPCODE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ZIPCODE]</td></tr>
+  <tr><td><b>ZIP4</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ZIP4]</td></tr>
+  <tr><td><b>STATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STATE]</td></tr>
+  <tr><td><b>SCHOOLDIST</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SCHOOLDIST]</td></tr>
+  <tr><td><b>SCHOOLDI_1</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SCHOOLDI_1]</td></tr>
+  <tr><td><b>IMPROVED</b></td><td>$[V204_Wisconsin_Parcels_FOREST/IMPROVED]</td></tr>
+  <tr><td><b>CNTASSDVAL</b></td><td>$[V204_Wisconsin_Parcels_FOREST/CNTASSDVAL]</td></tr>
+  <tr><td><b>LNDVALUE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LNDVALUE]</td></tr>
+  <tr><td><b>IMPVALUE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/IMPVALUE]</td></tr>
+  <tr><td><b>FORESTVALU</b></td><td>$[V204_Wisconsin_Parcels_FOREST/FORESTVALU]</td></tr>
+  <tr><td><b>ESTFMKVALU</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ESTFMKVALU]</td></tr>
+  <tr><td><b>NETPRPTA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/NETPRPTA]</td></tr>
+  <tr><td><b>GRSPRPTA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/GRSPRPTA]</td></tr>
+  <tr><td><b>PROPCLASS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PROPCLASS]</td></tr>
+  <tr><td><b>AUXCLASS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/AUXCLASS]</td></tr>
+  <tr><td><b>ASSDACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ASSDACRES]</td></tr>
+  <tr><td><b>DEEDACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/DEEDACRES]</td></tr>
+  <tr><td><b>GISACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/GISACRES]</td></tr>
+  <tr><td><b>CONAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/CONAME]</td></tr>
+  <tr><td><b>LOADDATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LOADDATE]</td></tr>
+  <tr><td><b>PARCELFIPS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELFIPS]</td></tr>
+  <tr><td><b>PARCELSRC</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELSRC]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LATITUDE]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[V204_Wisconsin_Parcels_FOREST/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[V204_Wisconsin_Parcels_FOREST/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0701fc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor4">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>STATEID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STATEID]</td></tr>
+  <tr><td><b>PARCELID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELID]</td></tr>
+  <tr><td><b>TAXPARCELI</b></td><td>$[V204_Wisconsin_Parcels_FOREST/TAXPARCELI]</td></tr>
+  <tr><td><b>PARCELDATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELDATE]</td></tr>
+  <tr><td><b>TAXROLLYEA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/TAXROLLYEA]</td></tr>
+  <tr><td><b>OWNERNME1</b></td><td>$[V204_Wisconsin_Parcels_FOREST/OWNERNME1]</td></tr>
+  <tr><td><b>OWNERNME2</b></td><td>$[V204_Wisconsin_Parcels_FOREST/OWNERNME2]</td></tr>
+  <tr><td><b>PSTLADRESS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PSTLADRESS]</td></tr>
+  <tr><td><b>SITEADRESS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SITEADRESS]</td></tr>
+  <tr><td><b>ADDNUMPREF</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUMPREF]</td></tr>
+  <tr><td><b>ADDNUM</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUM]</td></tr>
+  <tr><td><b>ADDNUMSUFF</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ADDNUMSUFF]</td></tr>
+  <tr><td><b>PREFIX</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PREFIX]</td></tr>
+  <tr><td><b>STREETNAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STREETNAME]</td></tr>
+  <tr><td><b>STREETTYPE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STREETTYPE]</td></tr>
+  <tr><td><b>SUFFIX</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SUFFIX]</td></tr>
+  <tr><td><b>LANDMARKNA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LANDMARKNA]</td></tr>
+  <tr><td><b>UNITTYPE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/UNITTYPE]</td></tr>
+  <tr><td><b>UNITID</b></td><td>$[V204_Wisconsin_Parcels_FOREST/UNITID]</td></tr>
+  <tr><td><b>PLACENAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PLACENAME]</td></tr>
+  <tr><td><b>ZIPCODE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ZIPCODE]</td></tr>
+  <tr><td><b>ZIP4</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ZIP4]</td></tr>
+  <tr><td><b>STATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/STATE]</td></tr>
+  <tr><td><b>SCHOOLDIST</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SCHOOLDIST]</td></tr>
+  <tr><td><b>SCHOOLDI_1</b></td><td>$[V204_Wisconsin_Parcels_FOREST/SCHOOLDI_1]</td></tr>
+  <tr><td><b>IMPROVED</b></td><td>$[V204_Wisconsin_Parcels_FOREST/IMPROVED]</td></tr>
+  <tr><td><b>CNTASSDVAL</b></td><td>$[V204_Wisconsin_Parcels_FOREST/CNTASSDVAL]</td></tr>
+  <tr><td><b>LNDVALUE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LNDVALUE]</td></tr>
+  <tr><td><b>IMPVALUE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/IMPVALUE]</td></tr>
+  <tr><td><b>FORESTVALU</b></td><td>$[V204_Wisconsin_Parcels_FOREST/FORESTVALU]</td></tr>
+  <tr><td><b>ESTFMKVALU</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ESTFMKVALU]</td></tr>
+  <tr><td><b>NETPRPTA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/NETPRPTA]</td></tr>
+  <tr><td><b>GRSPRPTA</b></td><td>$[V204_Wisconsin_Parcels_FOREST/GRSPRPTA]</td></tr>
+  <tr><td><b>PROPCLASS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PROPCLASS]</td></tr>
+  <tr><td><b>AUXCLASS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/AUXCLASS]</td></tr>
+  <tr><td><b>ASSDACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/ASSDACRES]</td></tr>
+  <tr><td><b>DEEDACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/DEEDACRES]</td></tr>
+  <tr><td><b>GISACRES</b></td><td>$[V204_Wisconsin_Parcels_FOREST/GISACRES]</td></tr>
+  <tr><td><b>CONAME</b></td><td>$[V204_Wisconsin_Parcels_FOREST/CONAME]</td></tr>
+  <tr><td><b>LOADDATE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LOADDATE]</td></tr>
+  <tr><td><b>PARCELFIPS</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELFIPS]</td></tr>
+  <tr><td><b>PARCELSRC</b></td><td>$[V204_Wisconsin_Parcels_FOREST/PARCELSRC]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[V204_Wisconsin_Parcels_FOREST/LATITUDE]</td></tr>
+  <tr><td><b>Shape_Leng</b></td><td>$[V204_Wisconsin_Parcels_FOREST/Shape_Leng]</td></tr>
+  <tr><td><b>Shape_Area</b></td><td>$[V204_Wisconsin_Parcels_FOREST/Shape_Area]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0701fc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ff06ff21</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ff06ff21</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>Peshtigo Preserve Parcels</name>
+		<open>1</open>
+		<Placemark>
+			<name>P14 (lost 40) [1:MultiGeometry]</name>
+			<snippet></snippet>
+			<styleUrl>#falseColor3</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_V204_Wisconsin_Parcels_FOREST_SSSSSSSSSSSSSSSSSSSSSSSSSSDDDDDDDSSDDDSSSSDDDD">
+					<SimpleData name="STATEID">041008-00252-0000</SimpleData>
+					<SimpleData name="PARCELID">008-00252-0000</SimpleData>
+					<SimpleData name="TAXPARCELI">008-00252-0000</SimpleData>
+					<SimpleData name="PARCELDATE"></SimpleData>
+					<SimpleData name="TAXROLLYEA">2015</SimpleData>
+					<SimpleData name="OWNERNME1">LAWRENCE PAPLHAM ET UX</SimpleData>
+					<SimpleData name="OWNERNME2"></SimpleData>
+					<SimpleData name="PSTLADRESS">7927 W BURR OAK DR FRANKLIN WI 53132</SimpleData>
+					<SimpleData name="SITEADRESS">5382 PESHTIGO PRES RD</SimpleData>
+					<SimpleData name="ADDNUMPREF"></SimpleData>
+					<SimpleData name="ADDNUM">5382</SimpleData>
+					<SimpleData name="ADDNUMSUFF"></SimpleData>
+					<SimpleData name="PREFIX"></SimpleData>
+					<SimpleData name="STREETNAME">PESHTIGO PRES</SimpleData>
+					<SimpleData name="STREETTYPE">ROAD</SimpleData>
+					<SimpleData name="SUFFIX"></SimpleData>
+					<SimpleData name="LANDMARKNA"></SimpleData>
+					<SimpleData name="UNITTYPE"></SimpleData>
+					<SimpleData name="UNITID"></SimpleData>
+					<SimpleData name="PLACENAME">TOWN OF BLACKWELL</SimpleData>
+					<SimpleData name="ZIPCODE">54541</SimpleData>
+					<SimpleData name="ZIP4"></SimpleData>
+					<SimpleData name="STATE">WI</SimpleData>
+					<SimpleData name="SCHOOLDIST">WABENO AREA SCHOOL DISTRICT</SimpleData>
+					<SimpleData name="SCHOOLDI_1">5992</SimpleData>
+					<SimpleData name="IMPROVED">YES</SimpleData>
+					<SimpleData name="CNTASSDVAL">151130</SimpleData>
+					<SimpleData name="LNDVALUE">76750</SimpleData>
+					<SimpleData name="IMPVALUE">74380</SimpleData>
+					<SimpleData name="FORESTVALU">0</SimpleData>
+					<SimpleData name="ESTFMKVALU">141400</SimpleData>
+					<SimpleData name="NETPRPTA">1429.99</SimpleData>
+					<SimpleData name="GRSPRPTA">1622.35</SimpleData>
+					<SimpleData name="PROPCLASS">1,6</SimpleData>
+					<SimpleData name="AUXCLASS"></SimpleData>
+					<SimpleData name="ASSDACRES">40</SimpleData>
+					<SimpleData name="DEEDACRES">40</SimpleData>
+					<SimpleData name="GISACRES">35.79</SimpleData>
+					<SimpleData name="CONAME">FOREST</SimpleData>
+					<SimpleData name="LOADDATE">03/31/2016</SimpleData>
+					<SimpleData name="PARCELFIPS">041</SimpleData>
+					<SimpleData name="PARCELSRC">FOREST COUNTY</SimpleData>
+					<SimpleData name="LONGITUDE">-88.5544</SimpleData>
+					<SimpleData name="LATITUDE">45.5764</SimpleData>
+					<SimpleData name="Shape_Leng">2829.4</SimpleData>
+					<SimpleData name="Shape_Area">144841</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88.55620060933119,45.57784351291026,-5.338154733181e-05 -88.55682855504656,45.57781657456886,-5.338061600923538e-05 -88.55694450205378,45.57782141318629,-5.338061600923538e-05 -88.5569445903964,45.5778214170028,-5.337968468666077e-05 -88.55693373512987,45.57464783170632,-5.337502807378769e-05 -88.55370168588411,45.57460973800924,-5.337502807378769e-05 -88.5537050807603,45.57462397568796,-5.337502807378769e-05 -88.55375954258368,45.57485237622061,-5.33759593963623e-05 -88.55384419483536,45.57511222978532,-5.33759593963623e-05 -88.55387608840081,45.57533653613137,-5.337689071893691e-05 -88.55380289752674,45.57547287570584,-5.337502807378769e-05 -88.55338037153018,45.57595526842949,-5.337689071893691e-05 -88.55321935592396,45.57617375418361,-5.337875336408615e-05 -88.55309920732712,45.57645407810937,-5.337968468666077e-05 -88.55304099667623,45.57666205292402,-5.337875336408615e-05 -88.5530597204433,45.57686875302537,-5.337968468666077e-05 -88.55315332000393,45.57702970862654,-5.338061600923538e-05 -88.55337401343915,45.57710788988469,-5.338154733181e-05 -88.55363112779912,45.57714040147727,-5.337875336408615e-05 -88.55387610687615,45.57720876400738,-5.337875336408615e-05 -88.55444536371098,45.57740837260275,-5.338061600923538e-05 -88.55467548184184,45.57736909418932,-5.337968468666077e-05 -88.55487938893494,45.57732104427107,-5.338061600923538e-05 -88.55516214471098,45.57735331518045,-5.338061600923538e-05 -88.5554837098601,45.5774029523384,-5.337968468666077e-05 -88.55565414571359,45.57753562506896,-5.338061600923538e-05 -88.55579962022205,45.57770454874585,-5.338061600923538e-05 -88.55596971699319,45.57781921457823,-5.338154733181e-05 -88.55620060933119,45.57784351291026,-5.338154733181e-05 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88.55694601047105,45.57826642602643,-5.338154733181e-05 -88.55694503092658,45.57799188025268,-5.338061600923538e-05 -88.55626791373108,45.57796812835755,-5.338061600923538e-05 -88.55595949738903,45.57793666179235,-5.338154733181e-05 -88.55472429192531,45.57774606984457,-5.338154733181e-05 -88.55431148190942,45.57766208329645,-5.338154733181e-05 -88.55391174502356,45.57756813367749,-5.337968468666077e-05 -88.55332907676143,45.57736047661925,-5.337968468666077e-05 -88.55279954057514,45.57720524596573,-5.338154733181e-05 -88.55269356108717,45.57708970110497,-5.337968468666077e-05 -88.55263909448837,45.57696468274862,-5.337968468666077e-05 -88.5526616714193,45.576865394541,-5.337968468666077e-05 -88.55282461591753,45.57672794364838,-5.338061600923538e-05 -88.55288498340231,45.57659200481866,-5.338061600923538e-05 -88.55300196047911,45.57618562508324,-5.337689071893691e-05 -88.55312303159326,45.57593175447459,-5.337689071893691e-05 -88.55328312541987,45.57568681563038,-5.337689071893691e-05 -88.55351799397653,45.57536856565592,-5.337782204151154e-05 -88.55352650886418,45.57522409380876,-5.337689071893691e-05 -88.5534951864739,45.57500879566453,-5.337782204151154e-05 -88.55351560554993,45.57483747136338,-5.337502807378769e-05 -88.55349937472195,45.57472081354969,-5.337502807378769e-05 -88.55344673966484,45.57464926258474,-5.337502807378769e-05 -88.5533063776315,45.57468742610912,-5.33759593963623e-05 -88.55325408141834,45.57463388238886,-5.337502807378769e-05 -88.55180720629441,45.57460990905546,-5.337316542863845e-05 -88.55181481554119,45.57824138397076,-5.338154733181e-05 -88.55694601047105,45.57826642602643,-5.338154733181e-05 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Peshtigo Preserve</name>
+			<snippet></snippet>
+			<styleUrl>#falseColor2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_V204_Wisconsin_Parcels_FOREST_SSSSSSSSSSSSSSSSSSSSSSSSSSDDDDDDDSSDDDSSSSDDDD">
+					<SimpleData name="STATEID">041008-00252-0000</SimpleData>
+					<SimpleData name="PARCELID">008-00252-0000</SimpleData>
+					<SimpleData name="TAXPARCELI">008-00252-0000</SimpleData>
+					<SimpleData name="PARCELDATE"></SimpleData>
+					<SimpleData name="TAXROLLYEA">2015</SimpleData>
+					<SimpleData name="OWNERNME1">LAWRENCE PAPLHAM ET UX</SimpleData>
+					<SimpleData name="OWNERNME2"></SimpleData>
+					<SimpleData name="PSTLADRESS">7927 W BURR OAK DR FRANKLIN WI 53132</SimpleData>
+					<SimpleData name="SITEADRESS">5382 PESHTIGO PRES RD</SimpleData>
+					<SimpleData name="ADDNUMPREF"></SimpleData>
+					<SimpleData name="ADDNUM">5382</SimpleData>
+					<SimpleData name="ADDNUMSUFF"></SimpleData>
+					<SimpleData name="PREFIX"></SimpleData>
+					<SimpleData name="STREETNAME">PESHTIGO PRES</SimpleData>
+					<SimpleData name="STREETTYPE">ROAD</SimpleData>
+					<SimpleData name="SUFFIX"></SimpleData>
+					<SimpleData name="LANDMARKNA"></SimpleData>
+					<SimpleData name="UNITTYPE"></SimpleData>
+					<SimpleData name="UNITID"></SimpleData>
+					<SimpleData name="PLACENAME">TOWN OF BLACKWELL</SimpleData>
+					<SimpleData name="ZIPCODE">54541</SimpleData>
+					<SimpleData name="ZIP4"></SimpleData>
+					<SimpleData name="STATE">WI</SimpleData>
+					<SimpleData name="SCHOOLDIST">WABENO AREA SCHOOL DISTRICT</SimpleData>
+					<SimpleData name="SCHOOLDI_1">5992</SimpleData>
+					<SimpleData name="IMPROVED">YES</SimpleData>
+					<SimpleData name="CNTASSDVAL">151130</SimpleData>
+					<SimpleData name="LNDVALUE">76750</SimpleData>
+					<SimpleData name="IMPVALUE">74380</SimpleData>
+					<SimpleData name="FORESTVALU">0</SimpleData>
+					<SimpleData name="ESTFMKVALU">141400</SimpleData>
+					<SimpleData name="NETPRPTA">1429.99</SimpleData>
+					<SimpleData name="GRSPRPTA">1622.35</SimpleData>
+					<SimpleData name="PROPCLASS">1,6</SimpleData>
+					<SimpleData name="AUXCLASS"></SimpleData>
+					<SimpleData name="ASSDACRES">40</SimpleData>
+					<SimpleData name="DEEDACRES">40</SimpleData>
+					<SimpleData name="GISACRES">35.79</SimpleData>
+					<SimpleData name="CONAME">FOREST</SimpleData>
+					<SimpleData name="LOADDATE">03/31/2016</SimpleData>
+					<SimpleData name="PARCELFIPS">041</SimpleData>
+					<SimpleData name="PARCELSRC">FOREST COUNTY</SimpleData>
+					<SimpleData name="LONGITUDE">-88.5544</SimpleData>
+					<SimpleData name="LATITUDE">45.5764</SimpleData>
+					<SimpleData name="Shape_Leng">2829.4</SimpleData>
+					<SimpleData name="Shape_Area">144841</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.5569445903964,45.5778214170028,-5.337968468666077e-05 -88.55716145723048,45.57783034598327,-5.337968468666077e-05 -88.55748393729098,45.57790699315676,-5.338061600923538e-05 -88.5578846077474,45.57802738267684,-5.338154733181e-05 -88.55837628218444,45.57819167455322,-5.338154733181e-05 -88.55854570519308,45.57827032377044,-5.338154733181e-05 -88.56207631557082,45.57829516422181,-5.338247865438461e-05 -88.56205957750829,45.57468157754045,-5.337502807378769e-05 -88.55693373512987,45.57464783170632,-5.337502807378769e-05 -88.5569445903964,45.5778214170028,-5.337968468666077e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.55797767937366,45.57827215003906,-5.338247865438461e-05 -88.55769683124836,45.57816508974538,-5.338154733181e-05 -88.55728334688203,45.57804453770775,-5.338061600923538e-05 -88.55701225772296,45.57799441822475,-5.338340997695923e-05 -88.55694507959424,45.57799188176767,-5.338061600923538e-05 -88.55694503092658,45.57799188025268,-5.338061600923538e-05 -88.55694601047105,45.57826642602643,-5.338154733181e-05 -88.55797767937366,45.57827215003906,-5.338247865438461e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.55692433369036,45.5718866266693,-5.337130278348923e-05 -88.55692445144113,45.57188653274568,-5.337037146091461e-05 -88.55799626046654,45.57103437986794,-5.336757749319077e-05 -88.55692155646614,45.5710252984781,-5.336944013833999e-05 -88.55692433369036,45.5718866266693,-5.337130278348923e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.55833901960393,45.57103702188714,-5.336944013833999e-05 -88.55833887698536,45.57103713620081,-5.336850881576538e-05 -88.55692539081743,45.57216551941836,-5.337037146091461e-05 -88.55692519979753,45.57216567182333,-5.336944013833999e-05 -88.55692883058325,45.57321265776616,-5.337223410606384e-05 -88.55693373512987,45.57464783170632,-5.337502807378769e-05 -88.56205957750829,45.57468157754045,-5.337502807378769e-05 -88.56204283589355,45.57106798865905,-5.337037146091461e-05 -88.55948500426832,45.57104642641909,-5.336944013833999e-05 -88.55833901960393,45.57103702188714,-5.336944013833999e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.55369861319498,45.57357457315185,-5.337316542863845e-05 -88.55370723986059,45.57386271760539,-5.337409675121307e-05 -88.55368692947546,45.57406104745969,-5.337502807378769e-05 -88.55369135113627,45.57423212381345,-5.337409675121307e-05 -88.55366945463139,45.57436742516829,-5.337502807378769e-05 -88.55370168588411,45.57460973800924,-5.337502807378769e-05 -88.55693373512987,45.57464783170632,-5.337502807378769e-05 -88.55692883058325,45.57321265776616,-5.337223410606384e-05 -88.55692519979753,45.57216567182333,-5.336944013833999e-05 -88.55637728695186,45.57260429721853,-5.337037146091461e-05 -88.55616154607235,45.57248961744766,-5.337130278348923e-05 -88.55692433369036,45.5718866266693,-5.337130278348923e-05 -88.55692155646614,45.5710252984781,-5.336944013833999e-05 -88.55180109122092,45.5709823888849,-5.336757749319077e-05 -88.55180241578044,45.57158547957341,-5.336944013833999e-05 -88.55180246107041,45.57158551255155,-5.336850881576538e-05 -88.55183781433205,45.57161068137346,-5.337037146091461e-05 -88.55229570601094,45.57196471990235,-5.337130278348923e-05 -88.5525836523725,45.57216808345355,-5.337037146091461e-05 -88.55323546549404,45.57258195922192,-5.337223410606384e-05 -88.55378266899832,45.57288986738889,-5.337316542863845e-05 -88.55383747449261,45.57303289172187,-5.337223410606384e-05 -88.55388059186721,45.57319433274833,-5.337316542863845e-05 -88.55388490502504,45.57333840452656,-5.337316542863845e-05 -88.55377292680431,45.5734568134318,-5.337409675121307e-05 -88.55369861319498,45.57357457315185,-5.337316542863845e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+						<innerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.55449780351067,45.57337561015122,-5.337316542863845e-05 -88.55429034556241,45.57336635324182,-5.337223410606384e-05 -88.55430656513252,45.57319903508069,-5.337409675121307e-05 -88.55453441534766,45.57322025234016,-5.337223410606384e-05 -88.55449780351067,45.57337561015122,-5.337316542863845e-05 
+								</coordinates>
+							</LinearRing>
+						</innerBoundaryIs>
+					</Polygon>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.55180720629441,45.57460990905546,-5.337316542863845e-05 -88.55325408141834,45.57463388238886,-5.337502807378769e-05 -88.55325587341798,45.57462064921107,-5.337409675121307e-05 -88.55327483965901,45.57448056455855,-5.337502807378769e-05 -88.55337514791735,45.57438001049156,-5.337502807378769e-05 -88.55338954629367,45.57397514373835,-5.337316542863845e-05 -88.55341030387912,45.57382182585877,-5.337409675121307e-05 -88.55348349345309,45.57368548648297,-5.337409675121307e-05 -88.55353011947599,45.57352293255797,-5.337409675121307e-05 -88.55354952047736,45.57329758797834,-5.337223410606384e-05 -88.553505156919,45.57309112568048,-5.337316542863845e-05 -88.55343720139368,45.57292993249108,-5.337223410606384e-05 -88.55334370193172,45.57279654406717,-5.337223410606384e-05 -88.55314798556863,45.57268211223789,-5.337130278348923e-05 -88.55291460689303,45.57256832802643,-5.337223410606384e-05 -88.55270629686294,45.57244529736425,-5.337130278348923e-05 -88.55247053348258,45.57226847359958,-5.337130278348923e-05 -88.55202591104145,45.57195904772578,-5.337037146091461e-05 -88.55188170942458,45.57183514058359,-5.337223410606384e-05 -88.551802436125,45.57178027480499,-5.337130278348923e-05 -88.55180222081182,45.5717801253573,-5.336944013833999e-05 -88.55180226587655,45.57180594281279,-5.337037146091461e-05 -88.55180720629441,45.57460990905546,-5.337316542863845e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88.55449780351067,45.57337561015122,-5.337316542863845e-05 -88.55453441534766,45.57322025234016,-5.337223410606384e-05 -88.55430656513252,45.57319903508069,-5.337409675121307e-05 -88.55429034556241,45.57336635324182,-5.337223410606384e-05 -88.55449780351067,45.57337561015122,-5.337316542863845e-05 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88.56720753125491,45.57831974533196,-5.338154733181e-05 -88.56718543038295,45.57471509336332,-5.33759593963623e-05 -88.56205957750829,45.57468157754045,-5.337502807378769e-05 -88.56207631557082,45.57829516422181,-5.338247865438461e-05 -88.56720753125491,45.57831974533196,-5.338154733181e-05 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88.56718543038295,45.57471509336332,-5.33759593963623e-05 -88.56720753125491,45.57831974533196,-5.338154733181e-05 -88.57232586469462,45.57834795646711,-5.338154733181e-05 -88.57233785513439,45.57834802263698,-5.338247865438461e-05 -88.57231129625436,45.57474837920581,-5.337502807378769e-05 -88.57230281423506,45.57474832448498,-5.337502807378769e-05 -88.56718543038295,45.57471509336332,-5.33759593963623e-05 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88.56716412742779,45.57111044925692,-5.336944013833999e-05 -88.56718543038295,45.57471509336332,-5.33759593963623e-05 -88.57230281423506,45.57474832448498,-5.337502807378769e-05 -88.57231129625436,45.57474837920581,-5.337502807378769e-05 -88.57228383206262,45.57115266118304,-5.336944013833999e-05 -88.57227978435898,45.57115262768691,-5.336944013833999e-05 -88.56716412742779,45.57111044925692,-5.336944013833999e-05 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88.56718543038295,45.57471509336332,-5.33759593963623e-05 -88.56716412742779,45.57111044925692,-5.336944013833999e-05 -88.56204283589355,45.57106798865905,-5.337037146091461e-05 -88.56205957750829,45.57468157754045,-5.337502807378769e-05 -88.56718543038295,45.57471509336332,-5.33759593963623e-05 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88.56716412742779,45.57111044925692,-5.336944013833999e-05 -88.56714122142874,45.56750578379213,-5.336198955774307e-05 -88.56202529004078,45.56745438749662,-5.336292088031769e-05 -88.56204283589355,45.57106798865905,-5.337037146091461e-05 -88.56716412742779,45.57111044925692,-5.336944013833999e-05 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88.56716412742779,45.57111044925692,-5.336944013833999e-05 -88.57227978435898,45.57115262768691,-5.336944013833999e-05 -88.57228383206262,45.57115266118304,-5.336944013833999e-05 -88.57227922915884,45.57052847269279,-5.336757749319077e-05 -88.57225728177144,45.56755245100358,-5.33638522028923e-05 -88.56714122142874,45.56750578379213,-5.336198955774307e-05 -88.56716412742779,45.57111044925692,-5.336944013833999e-05 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.56713279293899,45.56610431857025,-5.336012691259384e-05 -88.56760116961887,45.56607925515839,-5.335919559001923e-05 -88.56837274264632,45.56603661674642,-5.336105823516846e-05 -88.56887989524725,45.56603003719373,-5.335919559001923e-05 -88.56935724958623,45.56596682536931,-5.33582642674446e-05 -88.56957628740413,45.56592006379969,-5.336012691259384e-05 -88.56979971489297,45.56588967214082,-5.335919559001923e-05 -88.57012699589993,45.56577506998734,-5.33582642674446e-05 -88.57032132300976,45.56569199419037,-5.335919559001923e-05 -88.57053567995546,45.56557710149442,-5.33582642674446e-05 -88.57113839095329,45.5651812858699,-5.335919559001923e-05 -88.57144165176021,45.56497130548102,-5.33582642674446e-05 -88.57184468494272,45.5646798744506,-5.335547029972076e-05 -88.57223363696455,45.56436650673598,-5.335453897714614e-05 -88.57223385673777,45.56436632946162,-5.335640162229538e-05 -88.57223059973485,45.56395730014201,-5.335547029972076e-05 -88.56711922648687,45.56389662616593,-5.335640162229538e-05 -88.56713279293899,45.56610431857025,-5.336012691259384e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.571623426367,45.56509903335678,-5.335919559001923e-05 -88.57131606242267,45.56531290087212,-5.33582642674446e-05 -88.57069709415049,45.56571807762794,-5.336012691259384e-05 -88.57047218695821,45.56583846335081,-5.335919559001923e-05 -88.57024706189436,45.56593578152725,-5.335919559001923e-05 -88.56989877854848,45.56605743352521,-5.336105823516846e-05 -88.56964473814855,45.56609475537697,-5.336012691259384e-05 -88.56941201694734,45.56614415762263,-5.336012691259384e-05 -88.56891699053045,45.56620939941616,-5.335919559001923e-05 -88.56838175571657,45.5662178765069,-5.336105823516846e-05 -88.5676206174993,45.56625952161131,-5.336012691259384e-05 -88.56713378634532,45.56628547781717,-5.336105823516846e-05 -88.56714122142874,45.56750578379213,-5.336198955774307e-05 -88.57225728177144,45.56755245100358,-5.33638522028923e-05 -88.57223548486822,45.56464988397889,-5.33582642674446e-05 -88.5720313334408,45.56480484978896,-5.33582642674446e-05 -88.571623426367,45.56509903335678,-5.335919559001923e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.56247632024586,45.56635124537082,-5.336105823516846e-05 -88.56322420360891,45.56616995103711,-5.336012691259384e-05 -88.56420246920345,45.56609393644977,-5.336105823516846e-05 -88.56587149409756,45.5661295453811,-5.336105823516846e-05 -88.56635016561633,45.5661091178111,-5.335919559001923e-05 -88.56694512063328,45.56611433864123,-5.335919559001923e-05 -88.56713268130291,45.56610432437054,-5.335919559001923e-05 -88.56713279293899,45.56610431857025,-5.336012691259384e-05 -88.56711922648687,45.56389662616593,-5.335640162229538e-05 -88.5620077407157,45.563840785035,-5.335640162229538e-05 -88.56202100599303,45.56655478616536,-5.336105823516846e-05 -88.56247632024586,45.56635124537082,-5.336105823516846e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.56260202880487,45.56650978479365,-5.336105823516846e-05 -88.56202195861233,45.56676913642714,-5.336198955774307e-05 -88.56202529004078,45.56745438749662,-5.336292088031769e-05 -88.56714122142874,45.56750578379213,-5.336198955774307e-05 -88.56713378634532,45.56628547781717,-5.336105823516846e-05 -88.56694772372239,45.56629551898699,-5.335919559001923e-05 -88.56635196612123,45.56629028809703,-5.336105823516846e-05 -88.56586928842626,45.56631066537058,-5.335919559001923e-05 -88.5642210911997,45.56627475567161,-5.336012691259384e-05 -88.56329425052984,45.5663441039355,-5.335919559001923e-05 -88.56260202880487,45.56650978479365,-5.336105823516846e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88.55692155646614,45.5710252984781,-5.336944013833999e-05 -88.55690937362007,45.56740276303348,-5.336292088031769e-05 -88.55179257038866,45.56735483604223,-5.336198955774307e-05 -88.55180109122092,45.5709823888849,-5.336757749319077e-05 -88.55692155646614,45.5710252984781,-5.336944013833999e-05 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.56087139797017,45.5674437836533,-5.336198955774307e-05 -88.56072808969562,45.56744141434855,-5.336292088031769e-05 -88.56079689557247,45.56753848135151,-5.336198955774307e-05 -88.56087139797017,45.5674437836533,-5.336198955774307e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.5609567155596,45.5677098288778,-5.33638522028923e-05 -88.56084391229133,45.56789292968655,-5.33638522028923e-05 -88.56056905227652,45.56833726876736,-5.33638522028923e-05 -88.56016357912,45.56897179613517,-5.336571484804153e-05 -88.55975195283037,45.56956461352294,-5.336664617061615e-05 -88.55941244945768,45.57009308218613,-5.336757749319077e-05 -88.55895309746482,45.57054690215742,-5.336850881576538e-05 -88.55833901960393,45.57103702188714,-5.336944013833999e-05 -88.55948500426832,45.57104642641909,-5.336944013833999e-05 -88.56204283589355,45.57106798865905,-5.337037146091461e-05 -88.56202529004078,45.56745438749662,-5.336292088031769e-05 -88.56116449313886,45.56744579050243,-5.336012691259384e-05 -88.5609567155596,45.5677098288778,-5.33638522028923e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.55799626046654,45.57103437986794,-5.336757749319077e-05 -88.55799638997463,45.57103427709059,-5.336757749319077e-05 -88.55875501943302,45.57043076240005,-5.336757749319077e-05 -88.55919468012976,45.56999525953292,-5.336664617061615e-05 -88.55951926882616,45.56948629325971,-5.336664617061615e-05 -88.55993089697405,45.56889347582569,-5.336478352546692e-05 -88.56033384070471,45.56826398139891,-5.33638522028923e-05 -88.5604725455313,45.56803901500531,-5.336198955774307e-05 -88.56028671151375,45.56803948455315,-5.336198955774307e-05 -88.56015942590476,45.56806825772208,-5.336292088031769e-05 -88.56004371337124,45.56805160869089,-5.336292088031769e-05 -88.55987295444272,45.56790093606315,-5.33638522028923e-05 -88.55975358122117,45.56777679017982,-5.336292088031769e-05 -88.55964726394741,45.56764324427184,-5.336198955774307e-05 -88.55969588634856,45.5674309098723,-5.336198955774307e-05 -88.55969594693988,45.56743064510449,-5.336105823516846e-05 -88.55690937362007,45.56740276303348,-5.336292088031769e-05 -88.55692155646614,45.5710252984781,-5.336944013833999e-05 -88.55799626046654,45.57103437986794,-5.336757749319077e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.56140375718712,45.56714051833765,-5.336012691259384e-05 -88.5611645500872,45.5674457183111,-5.336198955774307e-05 -88.56116449313886,45.56744579050243,-5.336012691259384e-05 -88.56202529004078,45.56745438749662,-5.336292088031769e-05 -88.56202195861233,45.56676913642714,-5.336198955774307e-05 -88.56188826973907,45.56682877212728,-5.336012691259384e-05 -88.56140375718712,45.56714051833765,-5.336012691259384e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-88.55969594693988,45.56743064510449,-5.336105823516846e-05 -88.55970498882992,45.56739025426374,-5.336198955774307e-05 -88.55957314674347,45.56728395310215,-5.336198955774307e-05 -88.55950482538245,45.56710531916551,-5.336198955774307e-05 -88.55953827674396,45.56692459339212,-5.336198955774307e-05 -88.55959254910805,45.56683808078744,-5.336198955774307e-05 -88.55962345232255,45.56678840200468,-5.336105823516846e-05 -88.55977626056713,45.56673238545863,-5.336105823516846e-05 -88.55999452985019,45.56674751592232,-5.336012691259384e-05 -88.56021657086654,45.56689714717818,-5.336105823516846e-05 -88.56041364564844,45.56708359277678,-5.336012691259384e-05 -88.56058565632847,45.567279285799,-5.336292088031769e-05 -88.5607044464584,45.56739498496049,-5.33638522028923e-05 -88.56072804086516,45.56744131922181,-5.336292088031769e-05 -88.56072808969562,45.56744141434855,-5.336292088031769e-05 -88.56087139797017,45.5674437836533,-5.336198955774307e-05 -88.56087219271303,45.56744277204474,-5.336105823516846e-05 -88.56118846815573,45.56703991783955,-5.336292088031769e-05 -88.56121389236054,45.56701661028307,-5.336198955774307e-05 -88.56172201200377,45.56668997373266,-5.336105823516846e-05 -88.56202092171266,45.56655482470901,-5.336105823516846e-05 -88.56202100599303,45.56655478616536,-5.336105823516846e-05 -88.5620077407157,45.563840785035,-5.335640162229538e-05 -88.55689719971275,45.56377966297032,-5.335640162229538e-05 -88.55690937362007,45.56740276303348,-5.336292088031769e-05 -88.55969594693988,45.56743064510449,-5.336105823516846e-05 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88.55690937362007,45.56740276303348,-5.336292088031769e-05 -88.55689719971275,45.56377966297032,-5.335640162229538e-05 -88.55178574601553,45.56372336456754,-5.335453897714614e-05 -88.55179257038866,45.56735483604223,-5.336198955774307e-05 -88.55690937362007,45.56740276303348,-5.336292088031769e-05 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Jerry&apos;s Cabin</name>
+			<LookAt>
+				<longitude>-88.55483644331275</longitude>
+				<latitude>45.57345439640935</latitude>
+				<altitude>0</altitude>
+				<heading>0.7238682476627987</heading>
+				<tilt>30.00040737444086</tilt>
+				<range>90.30225846946171</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-88.55465019145612,45.57333474240755,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

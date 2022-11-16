@@ -36,6 +36,7 @@ describe("extractStyle", () => {
         "fill": "#ffee58",
         "fill-opacity": 0.25098039215686274,
         "icon": "https://earth.google.com/earth/rpc/cc/icon?color=1976d2&id=2000&scale=4",
+        "icon-color": "#303f9f",
         "icon-offset": [
           64,
           128,
@@ -44,6 +45,9 @@ describe("extractStyle", () => {
           "pixels",
           "insetPixels",
         ],
+        "icon-opacity": 1,
+        "label-color": "#303f9f",
+        "label-opacity": 1,
         "stroke": "#303f9f",
         "stroke-opacity": 1,
         "stroke-width": 2.13333,
@@ -84,6 +88,8 @@ describe("extractStyle", () => {
         ],
         "icon-opacity": 1,
         "icon-scale": 1,
+        "label-color": "#0288d1",
+        "label-opacity": 1,
         "label-scale": 0,
       }
     `);
