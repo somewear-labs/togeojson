@@ -1,6 +1,6 @@
 {
   "name": "@somewear-labs/togeojson",
-  "version": "5.0.0-5",
+  "version": "5.5.0-1",
   "description": "convert KML and GPX to GeoJSON",
   "source": "lib/index.ts",
   "umd:main": "dist/togeojson.umd.js",
@@ -8,47 +8,47 @@
   "types": "dist/index.d.ts",
   "browser": "dist/togeojson.umd.js",
   "jsdelivr": "dist/togeojson.umd.js",
-  "module": "dist/togeojson.es.js",
+  "module": "dist/togeojson.es.mjs",
   "main": "dist/togeojson.cjs",
   "exports": {
     "require": "./dist/togeojson.cjs",
-    "default": "./dist/togeojson.es.js"
+    "default": "./dist/togeojson.es.mjs"
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "vitest run",
     "lint": "eslint",
     "doc": "typedoc --options ./typedoc.json",
-    "prepare": "rollup -c rollup.config.js && npm run doc",
+    "prepare": "rollup -c rollup.config.js && npm run doc && cp CNAME docs/CNAME",
     "release": "standard-version"
   },
   "peerDependencies": {
     "@types/geojson": "*"
   },
   "devDependencies": {
-    "@placemarkio/check-geojson": "^0.1.8",
-    "@rollup/plugin-typescript": "^8.3.1",
+    "@placemarkio/check-geojson": "^0.1.12",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@swc/core": "^1.2.204",
     "@types/geojson": "^7946.0.8",
-    "@types/jest": "^27.4.1",
-    "@typescript-eslint/eslint-plugin": "^5.14.0",
-    "@typescript-eslint/parser": "^5.14.0",
-    "@xmldom/xmldom": "^0.8.1",
-    "eslint": "^8.11.0",
-    "jest": "^27.5.1",
-    "prettier": "^2.5.1",
-    "rollup": "^2.70.1",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "@vitest/coverage-c8": "^0.25.2",
+    "@xmldom/xmldom": "^0.8.2",
+    "eslint": "^8.18.0",
+    "prettier": "^2.7.1",
+    "rollup": "^2.75.7",
+    "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-terser": "^7.0.2",
-    "standard-version": "^9.3.2",
-    "ts-jest": "^27.1.3",
-    "rollup-plugin-dts": "^4.2.0",
-    "typedoc": "^0.22.13",
-    "typescript": "^4.6.2"
+    "standard-version": "^9.5.0",
+    "typedoc": "^0.22.17",
+    "typescript": "^4.7.4",
+    "vitest": "^0.25.2"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/placemarkio/togeojson.git"
+    "url": "git://github.com/placemark/togeojson.git"
   },
   "license": "BSD-2-Clause",
   "keywords": [

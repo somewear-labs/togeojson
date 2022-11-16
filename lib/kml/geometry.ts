@@ -1,5 +1,5 @@
 import { Position, Point, LineString, Geometry } from "geojson";
-import { $, $ns, nodeVal, get1 } from "../shared";
+import { $, $ns, nodeVal, get1, isElement } from "../shared";
 
 const removeSpace = /\s*/g;
 const trimSpace = /^\s*|\s*$/g;
@@ -13,7 +13,8 @@ export function coord1(value: string): Position {
     .replace(removeSpace, "")
     .split(",")
     .map(parseFloat)
-    .filter((num) => !isNaN(num));
+    .filter((num) => !isNaN(num))
+    .slice(0, 3);
 }
 
 /**
@@ -77,15 +78,7 @@ export function fixRing(ring: Position[]) {
   return ring;
 }
 
-const GEO_TYPES = [
-  "Polygon",
-  "LineString",
-  "Point",
-  "Track",
-  "gx:Track",
-] as const;
-
-function getCoordinates(node: Element) {
+export function getCoordinates(node: Element) {
   return nodeVal(get1(node, "coordinates"));
 }
 
@@ -95,19 +88,24 @@ interface GeometriesAndTimes {
 }
 
 export function getGeometry(node: Element): GeometriesAndTimes {
-  const geometries: Geometry[] = [];
-  const coordTimes = [];
-  for (const t of ["MultiGeometry", "MultiTrack", "gx:MultiTrack"]) {
-    const elem = get1(node, t);
-    if (elem) {
-      return getGeometry(elem);
-    }
-  }
-  for (const geoType of GEO_TYPES) {
-    for (const geomNode of $(node, geoType)) {
-      switch (geoType) {
+  let geometries: Geometry[] = [];
+  let coordTimes: string[][] = [];
+
+  for (let i = 0; i < node.childNodes.length; i++) {
+    const child = node.childNodes.item(i);
+    if (isElement(child)) {
+      switch (child.tagName) {
+        case "MultiGeometry":
+        case "MultiTrack":
+        case "gx:MultiTrack": {
+          const childGeometries = getGeometry(child);
+          geometries = geometries.concat(childGeometries.geometries);
+          coordTimes = coordTimes.concat(childGeometries.coordTimes);
+          break;
+        }
+
         case "Point": {
-          const coordinates = coord1(getCoordinates(geomNode));
+          const coordinates = coord1(getCoordinates(child));
           if (coordinates.length >= 2) {
             geometries.push({
               type: "Point",
@@ -117,7 +115,7 @@ export function getGeometry(node: Element): GeometriesAndTimes {
           break;
         }
         case "LineString": {
-          const coordinates = coord(getCoordinates(geomNode));
+          const coordinates = coord(getCoordinates(child));
           if (coordinates.length >= 2) {
             geometries.push({
               type: "LineString",
@@ -128,7 +126,7 @@ export function getGeometry(node: Element): GeometriesAndTimes {
         }
         case "Polygon": {
           const coords = [];
-          for (const linearRing of $(geomNode, "LinearRing")) {
+          for (const linearRing of $(child, "LinearRing")) {
             const ring = fixRing(coord(getCoordinates(linearRing)));
             if (ring.length >= 4) {
               coords.push(ring);
@@ -144,7 +142,7 @@ export function getGeometry(node: Element): GeometriesAndTimes {
         }
         case "Track":
         case "gx:Track": {
-          const gx = gxCoords(geomNode);
+          const gx = gxCoords(child);
           if (!gx) break;
           const { times, geometry } = gx;
           geometries.push(geometry);
@@ -154,6 +152,7 @@ export function getGeometry(node: Element): GeometriesAndTimes {
       }
     }
   }
+
   return {
     geometries,
     coordTimes,
