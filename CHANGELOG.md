@@ -2,6 +2,99 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.5.0](https://github.com/placemark/togeojson/compare/v5.4.0...v5.5.0) (2022-11-12)
+
+
+### Features
+
+* Add support for Schema tag and convert properties to correct datatype ([#100](https://github.com/placemark/togeojson/issues/100)) ([22479aa](https://github.com/placemark/togeojson/commit/22479aa3723d26f789561c1f4fb369fdc3be8085)), closes [#69](https://github.com/placemark/togeojson/issues/69)
+
+## [5.4.0](https://github.com/placemark/togeojson/compare/v5.3.0...v5.4.0) (2022-10-31)
+
+
+### Features
+
+* Ground overlays ([#98](https://github.com/placemark/togeojson/issues/98)) ([43d357d](https://github.com/placemark/togeojson/commit/43d357db277db069caa2d543ba88f9f7ef862ad0))
+
+## [5.3.0](https://github.com/placemark/togeojson/compare/v5.2.1...v5.3.0) (2022-10-23)
+
+
+### Features
+
+* Import visibility ([#94](https://github.com/placemark/togeojson/issues/94)) ([920c869](https://github.com/placemark/togeojson/commit/920c869f4233d5f0dba04e6ba7cbc5739d8cca86))
+
+
+### Bug Fixes
+
+* properly support KMLs with sibling MultiGeometries ([#96](https://github.com/placemark/togeojson/issues/96)) ([f0e978a](https://github.com/placemark/togeojson/commit/f0e978a2932268cc5b1f9e023882a32d16fe6abd))
+
+### [5.2.2](https://github.com/placemark/togeojson/compare/v5.2.1...v5.2.2) (2022-08-09)
+
+### [5.2.1](https://github.com/placemarkio/togeojson/compare/v5.2.0...v5.2.1) (2022-06-15)
+
+
+### Bug Fixes
+
+* Limit extracted coordinates to 3 ([#91](https://github.com/placemarkio/togeojson/issues/91)) ([b35d5a2](https://github.com/placemarkio/togeojson/commit/b35d5a2b21dfd392dee816f22caf4dd000aa6b91))
+
+## [5.2.0](https://github.com/placemarkio/togeojson/compare/v5.1.3...v5.2.0) (2022-06-12)
+
+
+### Features
+
+* Handle HTML in description tags ([#90](https://github.com/placemarkio/togeojson/issues/90)) ([1d2dbfe](https://github.com/placemarkio/togeojson/commit/1d2dbfe160d6b998fd945d2c6194451a7928ed02))
+
+## [5.2.0-1](https://github.com/placemarkio/togeojson/compare/v5.2.0-0...v5.2.0-1) (2022-06-12)
+
+
+### Bug Fixes
+
+* Fix typo ([4a9a57a](https://github.com/placemarkio/togeojson/commit/4a9a57a9cc6f9ec63a2df1cc2944dbb763a19b1c))
+
+## [5.2.0-0](https://github.com/placemarkio/togeojson/compare/v5.1.3...v5.2.0-0) (2022-06-12)
+
+
+### Features
+
+* Handle HTML in description tags ([e156191](https://github.com/placemarkio/togeojson/commit/e156191780ba5618a63d6787ae481fd50bc0c075))
+
+### [5.1.3](https://github.com/placemarkio/togeojson/compare/v5.1.2...v5.1.3) (2022-05-22)
+
+
+### Bug Fixes
+
+* Switch ESM entry point to use .mjs ending to fix Node.js native ESM support ([cd366b8](https://github.com/placemarkio/togeojson/commit/cd366b8b497a53803451221ebd8704d72e4c6e4a))
+
+### [5.1.3-0](https://github.com/placemarkio/togeojson/compare/v5.1.2...v5.1.3-0) (2022-05-22)
+
+### [5.1.2](https://github.com/placemarkio/togeojson/compare/v5.1.0...v5.1.2) (2022-04-24)
+
+
+### Bug Fixes
+
+* Add fixtures, block invalid GPX inputs ([#80](https://github.com/placemarkio/togeojson/issues/80)) ([d57cd80](https://github.com/placemarkio/togeojson/commit/d57cd80757deb34e5442973f4ab44acb1d4660c8))
+
+### [5.1.1](https://github.com/placemarkio/togeojson/compare/v5.1.0...v5.1.1) (2022-04-24)
+
+
+### Bug Fixes
+
+* Add fixtures, block invalid GPX inputs ([#80](https://github.com/placemarkio/togeojson/issues/80)) ([d57cd80](https://github.com/placemarkio/togeojson/commit/d57cd80757deb34e5442973f4ab44acb1d4660c8))
+
+## [5.1.0](https://github.com/placemarkio/togeojson/compare/v5.0.0...v5.1.0) (2022-04-23)
+
+
+### Features
+
+* Translate hotspot units ([#79](https://github.com/placemarkio/togeojson/issues/79)) ([114dcea](https://github.com/placemarkio/togeojson/commit/114dceac3844e430d6d38ad24e77d85b0ecfc99b))
+
+## [5.0.0](https://github.com/placemarkio/togeojson/compare/v5.0.0-5...v5.0.0) (2022-04-22)
+
+
+### Bug Fixes
+
+* Fix color extraction ([#77](https://github.com/placemarkio/togeojson/issues/77)) ([5712bc3](https://github.com/placemarkio/togeojson/commit/5712bc3f40a49e31a279643c102f832d4216797a))
+
 ## [5.0.0-5](https://github.com/placemarkio/togeojson/compare/v5.0.0-4...v5.0.0-5) (2022-03-19)
 
 

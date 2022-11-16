@@ -13,24 +13,34 @@ function getColor(node: Element, output: string): P {
   return get(node, "color", (elem) => fixColor(nodeVal(elem), output));
 }
 
+export function extractIconHref(node: Element) {
+  return get(node, "Icon", (icon, properties) => {
+    val1(icon, "href", (href) => {
+      properties.icon = href;
+    });
+    return properties;
+  });
+}
+
 export function extractIcon(node: Element) {
   return get(node, "IconStyle", (iconStyle) => {
     return Object.assign(
-      getColor(node, "icon"),
+      getColor(iconStyle, "icon"),
       numericProperty(iconStyle, "scale", "icon-scale"),
       numericProperty(iconStyle, "heading", "icon-heading"),
       get(iconStyle, "hotSpot", (hotspot) => {
         const left = parseFloat(hotspot.getAttribute("x") || "");
         const top = parseFloat(hotspot.getAttribute("y") || "");
-        if (!isNaN(left) && !isNaN(top)) return { "icon-offset": [left, top] };
+        const xunits = hotspot.getAttribute("xunits") || "";
+        const yunits = hotspot.getAttribute("yunits") || "";
+        if (!isNaN(left) && !isNaN(top))
+          return {
+            "icon-offset": [left, top],
+            "icon-offset-units": [xunits, yunits],
+          };
         return {};
       }),
-      get(iconStyle, "Icon", (icon, properties) => {
-        val1(icon, "href", (href) => {
-          properties.icon = href;
-        });
-        return properties;
-      })
+      extractIconHref(iconStyle)
     );
   });
 }
@@ -38,7 +48,7 @@ export function extractIcon(node: Element) {
 export function extractLabel(node: Element) {
   return get(node, "LabelStyle", (labelStyle) => {
     return Object.assign(
-      getColor(node, "label"),
+      getColor(labelStyle, "label"),
       numericProperty(labelStyle, "scale", "label-scale")
     );
   });
@@ -47,7 +57,7 @@ export function extractLabel(node: Element) {
 export function extractLine(node: Element) {
   return get(node, "LineStyle", (lineStyle) => {
     return Object.assign(
-      getColor(node, "stroke"),
+      getColor(lineStyle, "stroke"),
       numericProperty(lineStyle, "width", "stroke-width")
     );
   });

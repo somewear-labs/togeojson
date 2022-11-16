@@ -1,31 +1,15 @@
 import { Feature, Geometry } from "geojson";
+import { StyleMap, getMulti } from "../shared";
 import {
-  StyleMap,
-  P,
-  $,
-  get,
-  get1,
-  getMulti,
-  nodeVal,
-  normalizeId,
-  val1,
-} from "../shared";
+  extractCascadedStyle,
+  extractExtendedData,
+  extractTimeSpan,
+  extractTimeStamp,
+  getMaybeHTMLDescription,
+  Schema,
+} from "./shared";
 import { extractStyle } from "./extractStyle";
 import { getGeometry } from "./geometry";
-
-function extractExtendedData(node: Element) {
-  return get(node, "ExtendedData", (extendedData, properties) => {
-    for (const data of $(extendedData, "Data")) {
-      properties[data.getAttribute("name") || ""] = nodeVal(
-        get1(data, "value")
-      );
-    }
-    for (const simpleData of $(extendedData, "SimpleData")) {
-      properties[simpleData.getAttribute("name") || ""] = nodeVal(simpleData);
-    }
-    return properties;
-  });
-}
 
 function geometryListToGeometry(geometries: Geometry[]): Geometry | null {
   return geometries.length === 0
@@ -38,38 +22,10 @@ function geometryListToGeometry(geometries: Geometry[]): Geometry | null {
       };
 }
 
-function extractTimeSpan(node: Element): P {
-  return get(node, "TimeSpan", (timeSpan) => {
-    return {
-      timespan: {
-        begin: nodeVal(get1(timeSpan, "begin")),
-        end: nodeVal(get1(timeSpan, "end")),
-      },
-    };
-  });
-}
-
-function extractTimeStamp(node: Element): P {
-  return get(node, "TimeStamp", (timeStamp) => {
-    return { timestamp: nodeVal(get1(timeStamp, "when")) };
-  });
-}
-
-function extractCascadedStyle(node: Element, styleMap: StyleMap): P {
-  return val1(node, "styleUrl", (styleUrl) => {
-    styleUrl = normalizeId(styleUrl);
-    if (styleMap[styleUrl]) {
-      return Object.assign({ styleUrl }, styleMap[styleUrl]);
-    }
-    // For backward-compatibility. Should we still include
-    // styleUrl even if it's not resolved?
-    return { styleUrl };
-  });
-}
-
 export function getPlacemark(
   node: Element,
-  styleMap: StyleMap
+  styleMap: StyleMap,
+  schema: Schema
 ): Feature<Geometry | null> {
   const { coordTimes, geometries } = getGeometry(node);
 
@@ -85,9 +41,10 @@ export function getPlacemark(
         "phoneNumber",
         "description",
       ]),
+      getMaybeHTMLDescription(node),
       extractCascadedStyle(node, styleMap),
       extractStyle(node),
-      extractExtendedData(node),
+      extractExtendedData(node, schema),
       extractTimeSpan(node),
       extractTimeStamp(node),
       coordTimes.length
@@ -99,6 +56,10 @@ export function getPlacemark(
         : {}
     ),
   };
+
+  if (feature.properties?.visibility !== undefined) {
+    feature.properties.visibility = feature.properties.visibility !== "0";
+  }
 
   const id = node.getAttribute("id");
   if (id !== null && id !== "") feature.id = id;
